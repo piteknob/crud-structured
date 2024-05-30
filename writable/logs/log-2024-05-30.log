@@ -1,0 +1,753 @@
+CRITICAL - 2024-05-30 09:04:21 --> ErrorException: Undefined array key "Token"
+[Method: POST, Route: unit/insert]
+in APPPATH\Filters\Auth.php on line 45.
+ 1 APPPATH\Filters\Auth.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Filters\\Auth.php', 45)
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('unit/insert', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:04:57 --> ErrorException: Array to string conversion
+[Method: POST, Route: unit/insert]
+in APPPATH\Controllers\Unit.php on line 43.
+ 1 APPPATH\Controllers\Unit.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Unit.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 09:05:16 --> mysqli_sql_exception: Unknown column 'Kokak' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO uni...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO uni...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO uni...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO uni...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Unit->insert()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 09:05:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+[Method: POST, Route: unit/insert]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:05:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:05:16 --> [Caused by] mysqli_sql_exception: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 09:05:18 --> mysqli_sql_exception: Unknown column 'Kokak' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO uni...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO uni...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO uni...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO uni...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Unit->insert()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 09:05:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+[Method: POST, Route: unit/insert]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:05:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:05:18 --> [Caused by] mysqli_sql_exception: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 09:05:28 --> mysqli_sql_exception: Unknown column 'Kokak' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO uni...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO uni...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO uni...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO uni...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Unit->insert()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 09:05:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+[Method: POST, Route: unit/insert]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:05:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:05:28 --> [Caused by] mysqli_sql_exception: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 09:06:14 --> mysqli_sql_exception: Unknown column 'Kokak' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO uni...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO uni...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO uni...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO uni...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Unit->insert()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 09:06:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+[Method: POST, Route: unit/insert]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:06:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:06:14 --> [Caused by] mysqli_sql_exception: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 09:06:22 --> mysqli_sql_exception: Unknown column 'Kokak' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO uni...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO uni...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO uni...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO uni...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Unit->insert()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 09:06:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+[Method: POST, Route: unit/insert]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:06:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:06:22 --> [Caused by] mysqli_sql_exception: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 09:06:36 --> mysqli_sql_exception: Unknown column 'Kokak' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO uni...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO uni...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO uni...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO uni...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Unit->insertUnit()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 09:06:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+[Method: POST, Route: unit/insertUnit]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insertUnit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:06:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insertUnit()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:06:36 --> [Caused by] mysqli_sql_exception: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insertUnit()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 09:06:46 --> mysqli_sql_exception: Unknown column 'Kokak' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO uni...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO uni...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO uni...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO uni...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Unit->insert()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 09:06:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+[Method: POST, Route: unit/insert]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:06:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:06:46 --> [Caused by] mysqli_sql_exception: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 APPPATH\Controllers\Unit.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 09:07:10 --> mysqli_sql_exception: Unknown column 'Kokak' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO uni...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO uni...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO uni...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Unit.php(45): CodeIgniter\Database\BaseConnection->query('INSERT INTO uni...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Unit->insert()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 09:07:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+[Method: POST, Route: unit/insert]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Unit.php(45): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:07:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 APPPATH\Controllers\Unit.php(45): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:07:10 --> [Caused by] mysqli_sql_exception: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 4 APPPATH\Controllers\Unit.php(45): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NOW())')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 09:08:19 --> mysqli_sql_exception: Unknown column 'Kokak' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO uni...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO uni...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO uni...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Unit.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO uni...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Unit->insert()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 09:08:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+[Method: POST, Route: unit/insert]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Unit.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NULL)')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:08:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NULL)')
+ 3 APPPATH\Controllers\Unit.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NULL)')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:08:19 --> [Caused by] mysqli_sql_exception: Unknown column 'Kokak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO unit VALUES (\'\', Kokak, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO unit VALUES (\'\', Kokak, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO unit VALUES (\'\', Kokak, NULL)')
+ 4 APPPATH\Controllers\Unit.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO unit VALUES (\'\', Kokak, NULL)')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:11:18 --> ErrorException: Undefined array key "Token"
+[Method: POST, Route: unit/upda]
+in APPPATH\Filters\Auth.php on line 45.
+ 1 APPPATH\Filters\Auth.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Filters\\Auth.php', 45)
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('unit/upda', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:11:21 --> ErrorException: Undefined array key "Token"
+[Method: POST, Route: unit/update]
+in APPPATH\Filters\Auth.php on line 45.
+ 1 APPPATH\Filters\Auth.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Filters\\Auth.php', 45)
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('unit/update', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 09:15:08 --> mysqli_sql_exception: Unknown column 'unit' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE unit SET...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE unit SET...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE unit SET...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Unit.php(81): CodeIgniter\Database\BaseConnection->query('UPDATE unit SET...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Unit->update()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 09:15:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'unit' in 'field list'
+[Method: POST, Route: unit/update]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Unit.php(81): CodeIgniter\Database\BaseConnection->query('UPDATE unit SET unit = \'Lol\' WHERE unit_id = 5')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:15:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'unit' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE unit SET unit = \'Lol\' WHERE unit_id = 5')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE unit SET unit = \'Lol\' WHERE unit_id = 5')
+ 3 APPPATH\Controllers\Unit.php(81): CodeIgniter\Database\BaseConnection->query('UPDATE unit SET unit = \'Lol\' WHERE unit_id = 5')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:15:08 --> [Caused by] mysqli_sql_exception: Unknown column 'unit' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE unit SET unit = \'Lol\' WHERE unit_id = 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE unit SET unit = \'Lol\' WHERE unit_id = 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE unit SET unit = \'Lol\' WHERE unit_id = 5')
+ 4 APPPATH\Controllers\Unit.php(81): CodeIgniter\Database\BaseConnection->query('UPDATE unit SET unit = \'Lol\' WHERE unit_id = 5')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unit->update()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:24:17 --> ErrorException: Undefined array key "Token"
+[Method: GET, Route: unit/softDelete]
+in APPPATH\Filters\Auth.php on line 45.
+ 1 APPPATH\Filters\Auth.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Filters\\Auth.php', 45)
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('unit/softDelete', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:26:35 --> ErrorException: Undefined array key "Token"
+[Method: GET, Route: category/softDelete]
+in APPPATH\Filters\Auth.php on line 45.
+ 1 APPPATH\Filters\Auth.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Filters\\Auth.php', 45)
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('category/softDelete', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:27:15 --> ErrorException: Undefined array key "Token"
+[Method: GET, Route: category/restore]
+in APPPATH\Filters\Auth.php on line 45.
+ 1 APPPATH\Filters\Auth.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Filters\\Auth.php', 45)
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('category/restore', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:28:55 --> ErrorException: Undefined array key "Token"
+[Method: DELETE, Route: unit/delete]
+in APPPATH\Filters\Auth.php on line 45.
+ 1 APPPATH\Filters\Auth.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Filters\\Auth.php', 45)
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('unit/delete', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 09:41:04 --> ErrorException: Undefined array key "Token"
+[Method: POST, Route: stock/update]
+in APPPATH\Filters\Auth.php on line 45.
+ 1 APPPATH\Filters\Auth.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Filters\\Auth.php', 45)
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('stock/update', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 10:16:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '- 100 WHERE product_stock_product_id = 279' at line 1 in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE product_...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE product_...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE product_...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Stock.php(97): CodeIgniter\Database\BaseConnection->query('UPDATE product_...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Stock->reduce()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 10:16:09 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '- 100 WHERE product_stock_product_id = 279' at line 1
+[Method: POST, Route: stock/reduce]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Stock.php(97): CodeIgniter\Database\BaseConnection->query('UPDATE product_stock SET product_stock_value - 100 WHERE product_stock_product_id = 279')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->reduce()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 10:16:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '- 100 WHERE product_stock_product_id = 279' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE product_stock SET product_stock_value - 100 WHERE product_stock_product_id = 279')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE product_stock SET product_stock_value - 100 WHERE product_stock_product_id = 279')
+ 3 APPPATH\Controllers\Stock.php(97): CodeIgniter\Database\BaseConnection->query('UPDATE product_stock SET product_stock_value - 100 WHERE product_stock_product_id = 279')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->reduce()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 10:16:09 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '- 100 WHERE product_stock_product_id = 279' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE product_stock SET product_stock_value - 100 WHERE product_stock_product_id = 279', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE product_stock SET product_stock_value - 100 WHERE product_stock_product_id = 279')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE product_stock SET product_stock_value - 100 WHERE product_stock_product_id = 279')
+ 4 APPPATH\Controllers\Stock.php(97): CodeIgniter\Database\BaseConnection->query('UPDATE product_stock SET product_stock_value - 100 WHERE product_stock_product_id = 279')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->reduce()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-05-30 10:16:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '- '100' WHERE product_stock_product_id = '279'' at line 1 in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE product_...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE product_...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE product_...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Stock.php(97): CodeIgniter\Database\BaseConnection->query('UPDATE product_...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Stock->reduce()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-30 10:16:33 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '- '100' WHERE product_stock_product_id = '279'' at line 1
+[Method: POST, Route: stock/reduce]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Stock.php(97): CodeIgniter\Database\BaseConnection->query('UPDATE product_stock SET product_stock_value - \'100\' WHERE product_stock_product_id = \'279\'')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->reduce()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 10:16:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '- '100' WHERE product_stock_product_id = '279'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE product_stock SET product_stock_value - \'100\' WHERE product_stock_product_id = \'279\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE product_stock SET product_stock_value - \'100\' WHERE product_stock_product_id = \'279\'')
+ 3 APPPATH\Controllers\Stock.php(97): CodeIgniter\Database\BaseConnection->query('UPDATE product_stock SET product_stock_value - \'100\' WHERE product_stock_product_id = \'279\'')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->reduce()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 10:16:33 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '- '100' WHERE product_stock_product_id = '279'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE product_stock SET product_stock_value - \'100\' WHERE product_stock_product_id = \'279\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE product_stock SET product_stock_value - \'100\' WHERE product_stock_product_id = \'279\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE product_stock SET product_stock_value - \'100\' WHERE product_stock_product_id = \'279\'')
+ 4 APPPATH\Controllers\Stock.php(97): CodeIgniter\Database\BaseConnection->query('UPDATE product_stock SET product_stock_value - \'100\' WHERE product_stock_product_id = \'279\'')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->reduce()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 10:39:43 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: stock/add]
+in APPPATH\Controllers\Stock.php on line 183.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('stock/add', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('stock/add')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('stock/add')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 13:43:15 --> ErrorException: Undefined array key "cate$category"
+[Method: POST, Route: stock/add]
+in APPPATH\Controllers\Stock.php on line 128.
+ 1 APPPATH\Controllers\Stock.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cate$category"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Stock.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 13:45:17 --> ErrorException: Undefined array key "Token"
+[Method: POST, Route: stock/reduce]
+in APPPATH\Filters\Auth.php on line 45.
+ 1 APPPATH\Filters\Auth.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Filters\\Auth.php', 45)
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('stock/reduce', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-05-30 13:45:23 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: stock/reduce]
+in APPPATH\Controllers\Stock.php on line 79.
+ 1 APPPATH\Controllers\Stock.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Stock.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->reduce()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
