@@ -98,8 +98,12 @@ class Product extends DataController
 
     public function update($id = null)
     {
+        $id = $_GET;
         $post = $this->request->getPost();
         $db = db_connect();
+        foreach ($id as $key => $value) {
+            $id = $value;
+        }
 
 
         $product = htmlspecialchars($post['product']);

@@ -122,7 +122,7 @@ class Unit extends DataController
 
         $db->query($sql);
 
-        return $this->responseSuccess(ResponseInterface::HTTP_OK, 'Data Successfull Deleted', $data);
+        return $this->responseSuccess(ResponseInterface::HTTP_OK, 'Data Successfully Deleted', $data);
     }
 
     public function restore()
@@ -151,7 +151,7 @@ class Unit extends DataController
 
         $db->query($sql);
 
-        return $this->responseSuccess(ResponseInterface::HTTP_OK, 'Data Successfull Restored', $data);
+        return $this->responseSuccess(ResponseInterface::HTTP_OK, 'Data Successfully Restored', $data);
     }
 
     public function delete($id = null)
@@ -178,6 +178,6 @@ class Unit extends DataController
 
         $sql = "DELETE FROM unit WHERE unit_id = {$id}";
         $sql = $db->query($sql);
-        return $this->responseSuccess(ResponseInterface::HTTP_OK, 'Data Successfull Permanently Deleted', $data);
+        return $this->responseSuccess(ResponseInterface::HTTP_OK, 'Data Successfully Permanently Deleted', $data);
     }
 }

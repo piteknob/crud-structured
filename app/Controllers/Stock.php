@@ -31,7 +31,7 @@ class Stock extends DataController
 
         $data = generateListData($this->request->getVar(), $query, $this->db);
 
-        return $this->responseSuccess(ResponseInterface::HTTP_OK, 'List Unit', $data);
+        return $this->responseSuccess(ResponseInterface::HTTP_OK, 'List Stock', $data);
     }
 
     public function update()

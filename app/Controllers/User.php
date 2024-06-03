@@ -14,29 +14,32 @@ class User extends DataController
     public function register()
     {
         $post = $this->request->getPost();
-        $db = db_connect();
 
         $rules = [
             'email' => 'required|valid_email|is_unique[user.user_email]',
             'password' => 'required|min_length[5]',
             'confirm' => 'required|matches[password]',
         ];
+        
+        
 
         if (!$this->validate($rules)) {
             return $this->responseErrorValidation(ResponseInterface::HTTP_PRECONDITION_FAILED, 'error validation', $this->validator->getErrors());
         }
 
         $email = htmlspecialchars($post['email']);
+        $pw = $post['password'];
         $password = password_hash($post['password'], PASSWORD_BCRYPT);
 
         $insert = "INSERT INTO user VALUES('', '{$email}', '{$password}')";
 
         $this->db->query($insert);
-        $user = $db->insertID();
-        $user = "SELECT user_email,user_password FROM user WHERE user_id = '{$user}'";
-        $user = $db->query($user)->getResultArray();
+        $data = [
+            'user_email' => $email,
+            'user_password' => $pw,
+        ];
 
-        return $this->responseSuccess(ResponseInterface::HTTP_OK, 'account successfully registered', $user);
+        return $this->responseSuccess(ResponseInterface::HTTP_OK, 'account successfully registered', $data);
     }
 
 

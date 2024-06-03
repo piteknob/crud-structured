@@ -110,10 +110,13 @@ class Filters extends BaseFilters
             'before' =>
             [
                 'unit/*',
+                'unit/',
                 'product/*',
+                'product/',
                 'category/*',
+                'category/',
                 'stock/*',
-                'index',
+                'stock/',
                 '/',
             ]
         ]
