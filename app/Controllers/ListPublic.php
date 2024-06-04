@@ -32,16 +32,16 @@ class ListPublic extends DataController
             'limit' => 5
         ];
 
-        // $query['search_data'] = [
-        //     'product_category_name',
-        //     'product_name',
-        //     'product_stock_unit_name',
-        // ];
+        $query['search_data'] = [
+            'product_category_name',
+            'product_name',
+            'product_stock_unit_name',
+        ];
 
-        // $query['filter'] = [
-        //     "product_category_name",
-        //     "product_stock_unit_name",
-        // ];
+        $query['filter'] = [
+            "product_category_name",
+            "product_stock_unit_name",
+        ];
 
         $query['filter_between'] = [
             'product_stock_price_sell'

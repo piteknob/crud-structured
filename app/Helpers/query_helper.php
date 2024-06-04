@@ -158,9 +158,6 @@ if (!function_exists('generateListData')) {
         }
 
 
-        print_r($sql);
-        die;
-
         // Set Pagination from Params 
 
         $pagination = true;
