@@ -109,7 +109,7 @@ if (!function_exists('generateListData')) {
             $sql .= whereData($whereQuery);
             $where = true;
         } else {
-            $where = false; 
+            $where = false;
         }
 
         if (!empty($whereDetailQuery)) {
@@ -135,7 +135,7 @@ if (!function_exists('generateListData')) {
         }
 
         if (!empty($filterQuery)) {
-            $sql .= filterData($filter, $filterQuery, $where);
+            $sql .= filterData($filter, $filterQuery, $where, $filter);
             $where = true;
         } else {
             if (empty($where)) {
@@ -146,7 +146,7 @@ if (!function_exists('generateListData')) {
         }
 
         if (!empty($filterBetweenQuery)) {
-            $sql .= filterBetween($filterBetweenQuery, $start, $end, $where);
+            $sql .= filterBetween($filterBetweenQuery, $start, $end, $where, $search, $filter);
         }
 
         if (!empty($groupByQuery)) {
@@ -157,6 +157,7 @@ if (!function_exists('generateListData')) {
             $sql .= orderBy($orderByQuery);
         }
 
+    
 
         // Set Pagination from Params 
 
@@ -291,8 +292,11 @@ if (!function_exists('searchData')) {
 
 // Generate query filter
 if (!function_exists('filterData')) {
-    function filterData($data, $selectedField, $where)
+    function filterData($data, $selectedField, $where, $filter)
     {
+        if (empty($filter)) {
+            return '';
+        }
         if (!empty($where)) {
             $sql = ' AND (';
             foreach ($selectedField as $key => $value) {
@@ -316,20 +320,36 @@ if (!function_exists('filterData')) {
 
 // Generate query filter between
 if (!function_exists('filterBetween')) {
-    function filterBetween($data, $start, $end, $where)
+    function filterBetween($data, $start, $end, $where, $search, $filter)
     {
         if (empty($where)) {
             foreach ($data as $key => $value) {
-                $sql = " WHERE {$value} BETWEEN {$start} AND {$end} AND ";
+                $sql = " WHERE {$value} BETWEEN '{$start}' AND '{$end}' AND ";
             }
             $sql = rtrim($sql, ' AND ');
             return $sql;
         } else {
-            foreach ($data as $key => $value) {
-                $sql = " AND {$value} BETWEEN {$start} AND {$end} AND ";
+            if (!empty($search)) {
+                foreach ($data as $key => $value) {
+                    $sql = " AND {$value} BETWEEN '{$start}' AND '{$end}' AND ";
+                }
+                $sql = rtrim($sql, ' AND ');
+                return $sql;
+            } else {
+                if (!empty($filter)) {
+                    foreach ($data as $key => $value) {
+                        $sql = " AND {$value} BETWEEN '{$start}' AND '{$end}' AND ";
+                    }
+                    $sql = rtrim($sql, ' AND ');
+                    return $sql;
+                } else {
+                    foreach ($data as $key => $value) {
+                        $sql = " OR {$value} BETWEEN '{$start}' AND '{$end}' AND ";
+                    }
+                    $sql = rtrim($sql, ' AND ');
+                    return $sql;
+                }
             }
-            $sql = rtrim($sql, ' AND ');
-            return $sql;
         }
     }
 }
