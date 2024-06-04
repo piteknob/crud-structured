@@ -73,14 +73,13 @@ if (!function_exists('generateListData')) {
         $orderByQuery = isset($query['order_by']) ? $query['order_by'] : '';
         $paginationResult = isset($query['pagination']) ? $query['pagination'] : '';
 
-
         // --------------- set params --------------- //
         $paginationPage = isset($params['page']) ? $params['page'] : 1;
         $search = isset($params['search']) ? $params['search'] : '';
-        $category = isset($params['category']) ? $params['category'] : '';
+        $filter = isset($params['filter']) ? $params['filter'] : '';
         $start = isset($params['start']) ? $params['start'] : '';
         $end = isset($params['end']) ? $params['end'] : '';
-        
+
 
         $data = (object) [];
 
@@ -110,28 +109,40 @@ if (!function_exists('generateListData')) {
             $sql .= whereData($whereQuery);
             $where = true;
         } else {
-            $where = false;
+            $where = false; 
         }
 
         if (!empty($whereDetailQuery)) {
             $sql .= whereDataDetail($whereDetailQuery);
             $where = true;
         } else {
-            $where = false;
+            if (empty($where)) {
+                $where = false;
+            } else {
+                $where = true;
+            }
         }
 
         if (!empty($searchQuery)) {
             $sql .= searchData($searchQuery, $search, $where);
             $where = true;
         } else {
-            $where = false;
+            if (empty($where)) {
+                $where = false;
+            } else {
+                $where = true;
+            }
         }
 
         if (!empty($filterQuery)) {
-            $sql .= filterData($category, $filterQuery, $where);
+            $sql .= filterData($filter, $filterQuery, $where);
             $where = true;
         } else {
-            $where = false;
+            if (empty($where)) {
+                $where = false;
+            } else {
+                $where = true;
+            }
         }
 
         if (!empty($filterBetweenQuery)) {
@@ -147,6 +158,8 @@ if (!function_exists('generateListData')) {
         }
 
 
+        print_r($sql);
+        die;
 
         // Set Pagination from Params 
 
@@ -309,7 +322,6 @@ if (!function_exists('filterBetween')) {
     function filterBetween($data, $start, $end, $where)
     {
         if (empty($where)) {
-
             foreach ($data as $key => $value) {
                 $sql = " WHERE {$value} BETWEEN {$start} AND {$end} AND ";
             }
@@ -377,7 +389,7 @@ if (!function_exists('whereData')) {
 
 
 // Generate Where detail query
-if (!function_exists('whereDataDetail')){
+if (!function_exists('whereDataDetail')) {
     function whereDataDetail($data)
     {
         foreach ($data as $key => $value) {

@@ -2,10 +2,11 @@
 
 namespace App\Controllers;
 
+use App\Controllers\Core\AuthController;
 use App\Controllers\Core\DataController;
 use CodeIgniter\HTTP\ResponseInterface;
 
-class Product extends DataController
+class Product extends AuthController
 {
 
     protected $db;
@@ -13,6 +14,7 @@ class Product extends DataController
     public function __construct()
     {
         $this->db = \Config\Database::connect();
+        
     }
 
     public function index()
@@ -26,12 +28,6 @@ class Product extends DataController
             'product_category_name' => 'category',
             'product_stock_unit_name' => 'unit',
             'product_stock_price_sell' => 'price_sell',
-            'product_stock_price_buy' => 'price_buy',
-            'product_stock_value' => 'stock',
-            'product_stock_in' => 'stock_in',
-            'product_stock_out' => 'stock_out',
-            'product_created_at' => 'created',
-            'product_updated_at' => 'updated',
         ];
 
         $query['join'] = [
@@ -53,6 +49,12 @@ class Product extends DataController
 
     public function insert()
     {
+        // Authorization Token
+        $token = $this->before(getallheaders());
+        if (!empty($token)){
+            return $token;
+        }
+
         $db = db_connect();
         $post = $this->request->getPost();
 
@@ -84,7 +86,13 @@ class Product extends DataController
 
         $db->transComplete();
 
-        $getProduct = "SELECT  product.product_name, product.product_category_id, product_stock.product_stock_unit_id, product_stock.product_stock_value, product_stock.product_stock_price_buy, product_stock.product_stock_price_sell, product.product_created_at
+        $getProduct = "SELECT  product.product_name, 
+        product.product_category_name, 
+        product_stock.product_stock_unit_name, 
+        product_stock.product_stock_value, 
+        product_stock.product_stock_price_buy, 
+        product_stock.product_stock_price_sell, 
+        product.product_created_at
            FROM product
            LEFT JOIN product_stock
            ON product_stock.product_stock_product_id = product.product_id
@@ -98,13 +106,18 @@ class Product extends DataController
 
     public function update($id = null)
     {
+        // Authorization Token
+        $token = $this->before(getallheaders());
+        if (!empty($token)){
+            return $token;
+        }
+
         $id = $_GET;
         $post = $this->request->getPost();
         $db = db_connect();
         foreach ($id as $key => $value) {
             $id = $value;
         }
-
 
         $product = htmlspecialchars($post['product']);
         $category = htmlspecialchars($post['category']);
@@ -145,12 +158,18 @@ class Product extends DataController
             'buy' => $buy,
             'sell' => $sell
         ];
-
+        
         return $this->responseSuccess(ResponseInterface::HTTP_OK, 'Data Successfully Updated', $data);
     }
 
     public function delete($id = null)
     {
+        // Authorization Token
+        $token = $this->before(getallheaders());
+        if (!empty($token)){
+            return $token;
+        }
+
         $db = db_connect();
         $id = $this->request->getVar();
         foreach ($id as $key => $value) {
