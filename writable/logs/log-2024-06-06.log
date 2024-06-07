@@ -1,0 +1,288 @@
+CRITICAL - 2024-06-06 09:31:20 --> Error: Call to a member function getName() on null
+[Method: POST, Route: transaction/payed]
+in APPPATH\Controllers\Transaction.php on line 209.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 10:05:26 --> ErrorException: Undefined array key "sales_order_price"
+[Method: POST, Route: transaction/payed]
+in APPPATH\Controllers\Transaction.php on line 256.
+ 1 APPPATH\Controllers\Transaction.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sales_order_price"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 256)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 10:05:29 --> ErrorException: Undefined array key "sales_order_price"
+[Method: POST, Route: transaction/payed]
+in APPPATH\Controllers\Transaction.php on line 256.
+ 1 APPPATH\Controllers\Transaction.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sales_order_price"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 256)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 10:05:50 --> TypeError: Unsupported operand types: int + array
+[Method: POST, Route: transaction/payed]
+in APPPATH\Controllers\Transaction.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 10:05:51 --> TypeError: Unsupported operand types: int + array
+[Method: POST, Route: transaction/payed]
+in APPPATH\Controllers\Transaction.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 10:15:22 --> ErrorException: Array to string conversion
+[Method: POST, Route: transaction/payed]
+in APPPATH\Controllers\Transaction.php on line 239.
+ 1 APPPATH\Controllers\Transaction.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-06-06 10:16:28 --> mysqli_sql_exception: Unknown column '45_transfer_moroccan' in 'field list' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE sales_or...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE sales_or...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE sales_or...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Transaction.php(243): CodeIgniter\Database\BaseConnection->query('UPDATE sales_or...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-06-06 10:16:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '45_transfer_moroccan' in 'field list'
+[Method: POST, Route: transaction/payed]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Transaction.php(243): CodeIgniter\Database\BaseConnection->query('UPDATE sales_order 
+        SET sales_order_status = \'payed\',
+        sales_order_proof = 45_transfer_moroccan-flower-dark.png_14.png
+        WHERE sales_order_customer_id = 45 AND sales_order_status = \'pending\'')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 10:16:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '45_transfer_moroccan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE sales_order 
+        SET sales_order_status = \'payed\',
+        sales_order_proof = 45_transfer_moroccan-flower-dark.png_14.png
+        WHERE sales_order_customer_id = 45 AND sales_order_status = \'pending\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE sales_order 
+        SET sales_order_status = \'payed\',
+        sales_order_proof = 45_transfer_moroccan-flower-dark.png_14.png
+        WHERE sales_order_customer_id = 45 AND sales_order_status = \'pending\'')
+ 3 APPPATH\Controllers\Transaction.php(243): CodeIgniter\Database\BaseConnection->query('UPDATE sales_order 
+        SET sales_order_status = \'payed\',
+        sales_order_proof = 45_transfer_moroccan-flower-dark.png_14.png
+        WHERE sales_order_customer_id = 45 AND sales_order_status = \'pending\'')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 10:16:28 --> [Caused by] mysqli_sql_exception: Unknown column '45_transfer_moroccan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE sales_order 
+        SET sales_order_status = \'payed\',
+        sales_order_proof = 45_transfer_moroccan-flower-dark.png_14.png
+        WHERE sales_order_customer_id = 45 AND sales_order_status = \'pending\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE sales_order 
+        SET sales_order_status = \'payed\',
+        sales_order_proof = 45_transfer_moroccan-flower-dark.png_14.png
+        WHERE sales_order_customer_id = 45 AND sales_order_status = \'pending\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE sales_order 
+        SET sales_order_status = \'payed\',
+        sales_order_proof = 45_transfer_moroccan-flower-dark.png_14.png
+        WHERE sales_order_customer_id = 45 AND sales_order_status = \'pending\'')
+ 4 APPPATH\Controllers\Transaction.php(243): CodeIgniter\Database\BaseConnection->query('UPDATE sales_order 
+        SET sales_order_status = \'payed\',
+        sales_order_proof = 45_transfer_moroccan-flower-dark.png_14.png
+        WHERE sales_order_customer_id = 45 AND sales_order_status = \'pending\'')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 10:58:02 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 171.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-06-06 11:02:22 --> mysqli_sql_exception: Unknown column 'sales_order_stauts' in 'where clause' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT sales_or...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_or...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_or...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Transaction.php(89): CodeIgniter\Database\BaseConnection->query('SELECT sales_or...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Transaction->select()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-06-06 11:02:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sales_order_stauts' in 'where clause'
+[Method: POST, Route: transaction/select]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Transaction.php(89): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 11:02:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sales_order_stauts' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 3 APPPATH\Controllers\Transaction.php(89): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 11:02:22 --> [Caused by] mysqli_sql_exception: Unknown column 'sales_order_stauts' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 4 APPPATH\Controllers\Transaction.php(89): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-06-06 11:02:23 --> mysqli_sql_exception: Unknown column 'sales_order_stauts' in 'where clause' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT sales_or...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_or...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_or...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Transaction.php(89): CodeIgniter\Database\BaseConnection->query('SELECT sales_or...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Transaction->select()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-06-06 11:02:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sales_order_stauts' in 'where clause'
+[Method: POST, Route: transaction/select]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Transaction.php(89): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 11:02:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sales_order_stauts' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 3 APPPATH\Controllers\Transaction.php(89): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 11:02:23 --> [Caused by] mysqli_sql_exception: Unknown column 'sales_order_stauts' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 4 APPPATH\Controllers\Transaction.php(89): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_price FROM sales_order WHERE sales_order_customer_id = 45 AND sales_order_stauts = \'pending\'')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 11:08:35 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 11:09:07 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 11:10:50 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 174.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-06 11:41:52 --> ErrorException: Undefined variable $id_
+[Method: POST, Route: transaction/payed]
+in APPPATH\Controllers\Transaction.php on line 230.
+ 1 APPPATH\Controllers\Transaction.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 230)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->payed()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')

@@ -1,0 +1,613 @@
+CRITICAL - 2024-06-07 09:14:16 --> ErrorException: Undefined array key 0
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 67.
+ 1 APPPATH\Controllers\Transaction.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:14:55 --> ErrorException: Undefined array key 0
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 67.
+ 1 APPPATH\Controllers\Transaction.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:15:10 --> ErrorException: Undefined array key "customer_id"
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 67.
+ 1 APPPATH\Controllers\Transaction.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_id"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:16:05 --> ErrorException: Undefined array key 0
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 67.
+ 1 APPPATH\Controllers\Transaction.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:16:24 --> ErrorException: Undefined array key 0
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 67.
+ 1 APPPATH\Controllers\Transaction.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:16:33 --> ErrorException: Undefined array key 0
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 67.
+ 1 APPPATH\Controllers\Transaction.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:16:34 --> ErrorException: Undefined array key 0
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 67.
+ 1 APPPATH\Controllers\Transaction.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-06-07 09:17:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT sales_or...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_or...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_or...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Transaction.php(87): CodeIgniter\Database\BaseConnection->query('SELECT sales_or...', Array)
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Transaction->select()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-06-07 09:17:53 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+[Method: POST, Route: transaction/select]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Transaction.php(87): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ?', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:17:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ()')
+ 3 APPPATH\Controllers\Transaction.php(87): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ?', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:17:53 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ()')
+ 4 APPPATH\Controllers\Transaction.php(87): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ?', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-06-07 09:18:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT sales_or...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_or...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_or...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Transaction.php(87): CodeIgniter\Database\BaseConnection->query('SELECT sales_or...', Array)
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Transaction->select()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-06-07 09:18:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+[Method: POST, Route: transaction/select]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Transaction.php(87): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ?', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:18:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ()')
+ 3 APPPATH\Controllers\Transaction.php(87): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ?', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:18:54 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ()')
+ 4 APPPATH\Controllers\Transaction.php(87): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_status FROM sales_order WHERE sales_order_customer_id = ?', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:19:43 --> ErrorException: Undefined array key 0
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 67.
+ 1 APPPATH\Controllers\Transaction.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:20:14 --> ParseError: syntax error, unexpected token "public"
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 205.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('transaction/select', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('transaction/select')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('transaction/select')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:20:23 --> ParseError: syntax error, unexpected token "public"
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 205.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('transaction/select', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('transaction/select')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('transaction/select')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:20:48 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 98.
+ 1 APPPATH\Controllers\Transaction.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:20:51 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 98.
+ 1 APPPATH\Controllers\Transaction.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:21:25 --> ErrorException: Undefined variable $value
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 98.
+ 1 APPPATH\Controllers\Transaction.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:22:22 --> ParseError: syntax error, unexpected token "foreach"
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 87.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('transaction/select', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('transaction/select')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('transaction/select')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:26:47 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 131.
+ 1 APPPATH\Controllers\Transaction.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:26:49 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 131.
+ 1 APPPATH\Controllers\Transaction.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:27:50 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 131.
+ 1 APPPATH\Controllers\Transaction.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:27:52 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 131.
+ 1 APPPATH\Controllers\Transaction.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:27:53 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 131.
+ 1 APPPATH\Controllers\Transaction.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:28:09 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 131.
+ 1 APPPATH\Controllers\Transaction.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:28:10 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 131.
+ 1 APPPATH\Controllers\Transaction.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:28:11 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 131.
+ 1 APPPATH\Controllers\Transaction.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:28:12 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 131.
+ 1 APPPATH\Controllers\Transaction.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:28:12 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 131.
+ 1 APPPATH\Controllers\Transaction.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:28:41 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 95.
+ 1 APPPATH\Controllers\Transaction.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:28:51 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 95.
+ 1 APPPATH\Controllers\Transaction.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:28:52 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 95.
+ 1 APPPATH\Controllers\Transaction.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 09:29:17 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 96.
+ 1 APPPATH\Controllers\Transaction.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-06-07 10:31:38 --> mysqli_sql_exception: Unknown column 'sales_customer_id' in 'where clause' in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE sales_or...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE sales_or...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE sales_or...')
+#3 C:\xampp\htdocs\crud-structured\app\Controllers\Transaction.php(361): CodeIgniter\Database\BaseConnection->query('UPDATE sales_or...')
+#4 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Transaction->canceled()
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-06-07 10:31:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sales_customer_id' in 'where clause'
+[Method: POST, Route: transaction/canceled]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Controllers\Transaction.php(361): CodeIgniter\Database\BaseConnection->query('UPDATE sales_order SET sales_order_status = \'canceled\' WHERE sales_order_customer_id = 47 AND sales_customer_id = \'pending\' OR \'payed\'')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->canceled()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 10:31:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sales_customer_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE sales_order SET sales_order_status = \'canceled\' WHERE sales_order_customer_id = 47 AND sales_customer_id = \'pending\' OR \'payed\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE sales_order SET sales_order_status = \'canceled\' WHERE sales_order_customer_id = 47 AND sales_customer_id = \'pending\' OR \'payed\'')
+ 3 APPPATH\Controllers\Transaction.php(361): CodeIgniter\Database\BaseConnection->query('UPDATE sales_order SET sales_order_status = \'canceled\' WHERE sales_order_customer_id = 47 AND sales_customer_id = \'pending\' OR \'payed\'')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->canceled()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 10:31:38 --> [Caused by] mysqli_sql_exception: Unknown column 'sales_customer_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE sales_order SET sales_order_status = \'canceled\' WHERE sales_order_customer_id = 47 AND sales_customer_id = \'pending\' OR \'payed\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE sales_order SET sales_order_status = \'canceled\' WHERE sales_order_customer_id = 47 AND sales_customer_id = \'pending\' OR \'payed\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE sales_order SET sales_order_status = \'canceled\' WHERE sales_order_customer_id = 47 AND sales_customer_id = \'pending\' OR \'payed\'')
+ 4 APPPATH\Controllers\Transaction.php(361): CodeIgniter\Database\BaseConnection->query('UPDATE sales_order SET sales_order_status = \'canceled\' WHERE sales_order_customer_id = 47 AND sales_customer_id = \'pending\' OR \'payed\'')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->canceled()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 10:56:39 --> ErrorException: Undefined array key "sales_order_status"
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 86.
+ 1 APPPATH\Controllers\Transaction.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sales_order_status"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 10:56:41 --> ErrorException: Undefined array key "sales_order_status"
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 86.
+ 1 APPPATH\Controllers\Transaction.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sales_order_status"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 10:56:48 --> ErrorException: Undefined array key "sales_order_status"
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 86.
+ 1 APPPATH\Controllers\Transaction.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sales_order_status"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 10:56:49 --> ErrorException: Undefined array key "sales_order_status"
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 86.
+ 1 APPPATH\Controllers\Transaction.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sales_order_status"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 11:03:27 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 90.
+ 1 APPPATH\Controllers\Transaction.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 11:03:29 --> ErrorException: Undefined variable $status
+[Method: POST, Route: transaction/select]
+in APPPATH\Controllers\Transaction.php on line 90.
+ 1 APPPATH\Controllers\Transaction.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->select()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-06-07 13:16:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''pending'' at line 1 in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT sales_or...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_or...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_or...')
+#3 C:\xampp\htdocs\crud-structured\app\Helpers\query_helper.php(197): CodeIgniter\Database\BaseConnection->query('SELECT sales_or...')
+#4 C:\xampp\htdocs\crud-structured\app\Controllers\Transaction.php(239): generateListData(Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\Transaction->CustomerCancel()
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#7 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\crud-structured\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-06-07 13:16:51 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''pending'' at line 1
+[Method: POST, Route: transaction/customerCancel]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Helpers\query_helper.php(197): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_status AS status, sales_order_date AS date, sales_order_product_name AS product, sales_order_category AS category, sales_order_unit AS unit, sales_order_value AS value, sales_order_price AS price FROM sales_order WHERE sales_order_customer_id = 47 AND sales_order_status \'pending\'')
+ 2 APPPATH\Controllers\Transaction.php(239): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->CustomerCancel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 13:16:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''pending'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_order_status AS status, sales_order_date AS date, sales_order_product_name AS product, sales_order_category AS category, sales_order_unit AS unit, sales_order_value AS value, sales_order_price AS price FROM sales_order WHERE sales_order_customer_id = 47 AND sales_order_status \'pending\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_order_status AS status, sales_order_date AS date, sales_order_product_name AS product, sales_order_category AS category, sales_order_unit AS unit, sales_order_value AS value, sales_order_price AS price FROM sales_order WHERE sales_order_customer_id = 47 AND sales_order_status \'pending\'')
+ 3 APPPATH\Helpers\query_helper.php(197): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_status AS status, sales_order_date AS date, sales_order_product_name AS product, sales_order_category AS category, sales_order_unit AS unit, sales_order_value AS value, sales_order_price AS price FROM sales_order WHERE sales_order_customer_id = 47 AND sales_order_status \'pending\'')
+ 4 APPPATH\Controllers\Transaction.php(239): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->CustomerCancel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 13:16:51 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''pending'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT sales_order_status AS status, sales_order_date AS date, sales_order_product_name AS product, sales_order_category AS category, sales_order_unit AS unit, sales_order_value AS value, sales_order_price AS price FROM sales_order WHERE sales_order_customer_id = 47 AND sales_order_status \'pending\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sales_order_status AS status, sales_order_date AS date, sales_order_product_name AS product, sales_order_category AS category, sales_order_unit AS unit, sales_order_value AS value, sales_order_price AS price FROM sales_order WHERE sales_order_customer_id = 47 AND sales_order_status \'pending\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sales_order_status AS status, sales_order_date AS date, sales_order_product_name AS product, sales_order_category AS category, sales_order_unit AS unit, sales_order_value AS value, sales_order_price AS price FROM sales_order WHERE sales_order_customer_id = 47 AND sales_order_status \'pending\'')
+ 4 APPPATH\Helpers\query_helper.php(197): CodeIgniter\Database\BaseConnection->query('SELECT sales_order_status AS status, sales_order_date AS date, sales_order_product_name AS product, sales_order_category AS category, sales_order_unit AS unit, sales_order_value AS value, sales_order_price AS price FROM sales_order WHERE sales_order_customer_id = 47 AND sales_order_status \'pending\'')
+ 5 APPPATH\Controllers\Transaction.php(239): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->CustomerCancel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 13:35:36 --> Error: Undefined constant Predis\Connection\Replication\ReplicationInterface::HTTP_OK
+[Method: POST, Route: transaction/customerCancel]
+in APPPATH\Controllers\Transaction.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->CustomerCancel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 14:31:02 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: transaction/listtableCustomer]
+in APPPATH\Controllers\Transaction.php on line 431.
+ 1 APPPATH\Controllers\Transaction.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 431)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->listTableCustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-07 17:02:56 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: transaction/listtableCustomer]
+in APPPATH\Controllers\Transaction.php on line 431.
+ 1 APPPATH\Controllers\Transaction.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Transaction.php', 431)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaction->listTableCustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
