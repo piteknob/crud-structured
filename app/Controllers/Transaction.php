@@ -322,6 +322,13 @@ class Transaction extends AuthController
 
     public function confirmed()
     {
+        // Authorization Token
+        $token = $this->before(getallheaders());
+        if (!empty($token)){
+            return $token;
+        }
+
+
         $post = $this->request->getPost();
 
         $id = $post['id'];
@@ -394,6 +401,12 @@ class Transaction extends AuthController
 
     public function canceled()
     {
+        // Authorization Token
+        $token = $this->before(getallheaders());
+        if (!empty($token)){
+            return $token;
+        }
+
         $post = $this->request->getPost();
         $db = db_connect();
         $id = $post['id'];
@@ -453,7 +466,7 @@ class Transaction extends AuthController
         ];
 
         $query['limit'] = [
-            'limit' => 5,
+            'limit' => 10,
         ];
 
         $query['search_data'] = [
@@ -474,6 +487,13 @@ class Transaction extends AuthController
 
     public function report()
     {
+        // Authorization Token
+        $token = $this->before(getallheaders());
+        if (!empty($token)){
+            return $token;
+        }
+
+
         $query['data'] = ['sales_order'];
 
         $query['select'] = [
@@ -500,6 +520,8 @@ class Transaction extends AuthController
             "sales_order_category",
             "sales_order_unit",
         ];
+
+        $query['limit'] = ['limit' => 10];
 
         $data = generateListData($this->request->getVar(), $query, $this->db);
         
