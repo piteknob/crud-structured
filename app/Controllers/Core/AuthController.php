@@ -23,7 +23,6 @@ class AuthController extends DataController
     {
         $db = db_connect();
 
-
         // Authorization Token
         $token = $request['Token'];
         $getResult = "SELECT auth_user_token FROM auth_user WHERE auth_user_token = '{$token}'";

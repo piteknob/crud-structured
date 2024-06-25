@@ -114,6 +114,7 @@ class Filters extends BaseFilters
         //         'category/*',
         //         'stock/*',
         //         'log/',
+        //         'listpublic/*',
         //     ]
         // ]
     ];

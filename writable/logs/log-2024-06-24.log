@@ -1,0 +1,248 @@
+CRITICAL - 2024-06-24 14:02:47 --> ParseError: syntax error, unexpected identifier "print_r", expecting "function" or "const"
+[Method: POST, Route: login/login]
+in APPPATH\Controllers\Login.php on line 11.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('login/login', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('login/login')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('login/login')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:07:38 --> ParseError: syntax error, unexpected variable "$token"
+[Method: POST, Route: login/login]
+in APPPATH\Controllers\Login.php on line 95.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('login/login', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('login/login')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('login/login')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-06-24 14:09:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT auth_use...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT auth_use...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT auth_use...')
+#3 C:\xampp\htdocs\crud-structured\app\Helpers\query_helper.php(51): CodeIgniter\Database\BaseConnection->query('SELECT auth_use...')
+#4 C:\xampp\htdocs\crud-structured\app\Controllers\Login.php(96): generateDetailData(Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\login->login()
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#7 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\crud-structured\public\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-06-24 14:09:42 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: login/login]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Helpers\query_helper.php(51): CodeIgniter\Database\BaseConnection->query('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 2 APPPATH\Controllers\Login.php(96): generateDetailData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:09:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 3 APPPATH\Helpers\query_helper.php(51): CodeIgniter\Database\BaseConnection->query('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 4 APPPATH\Controllers\Login.php(96): generateDetailData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:09:42 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 4 APPPATH\Helpers\query_helper.php(51): CodeIgniter\Database\BaseConnection->query('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 5 APPPATH\Controllers\Login.php(96): generateDetailData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+ERROR - 2024-06-24 14:10:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud-structured\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT auth_use...', 0)
+#1 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT auth_use...')
+#2 C:\xampp\htdocs\crud-structured\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT auth_use...')
+#3 C:\xampp\htdocs\crud-structured\app\Helpers\query_helper.php(51): CodeIgniter\Database\BaseConnection->query('SELECT auth_use...')
+#4 C:\xampp\htdocs\crud-structured\app\Controllers\Login.php(96): generateDetailData(Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(933): App\Controllers\login->login()
+#6 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#7 C:\xampp\htdocs\crud-structured\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-structured\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crud-structured\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\crud-structured\public\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\crud-structured\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-06-24 14:10:21 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: login/login]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Helpers\query_helper.php(51): CodeIgniter\Database\BaseConnection->query('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 2 APPPATH\Controllers\Login.php(96): generateDetailData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:10:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 3 APPPATH\Helpers\query_helper.php(51): CodeIgniter\Database\BaseConnection->query('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 4 APPPATH\Controllers\Login.php(96): generateDetailData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:10:21 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 4 APPPATH\Helpers\query_helper.php(51): CodeIgniter\Database\BaseConnection->query('SELECT auth_user_user_email AS user_email FROM auth_user WHERE auth_user_token = dmlub0BnbWFpbC5jb20xMjM0NTY=')
+ 5 APPPATH\Controllers\Login.php(96): generateDetailData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:16:42 --> ErrorException: Undefined array key "Token"
+[Method: POST, Route: admin/Product/insert]
+in APPPATH\Controllers\Core\AuthController.php on line 27.
+ 1 APPPATH\Controllers\Core\AuthController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Core\\AuthController.php', 27)
+ 2 APPPATH\Controllers\Admin\Product.php(66): App\Controllers\Core\AuthController->before([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->insert()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:18:51 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/Product/update]
+in APPPATH\Controllers\Admin\Product.php on line 149.
+ 1 APPPATH\Controllers\Admin\Product.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:46:15 --> ErrorException: Undefined array key "Token"
+[Method: DELETE, Route: admin/Product/delete]
+in APPPATH\Controllers\Core\AuthController.php on line 27.
+ 1 APPPATH\Controllers\Core\AuthController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Core\\AuthController.php', 27)
+ 2 APPPATH\Controllers\Admin\Product.php(181): App\Controllers\Core\AuthController->before([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:54:46 --> ErrorException: Undefined array key "Token"
+[Method: GET, Route: admin/Category/index]
+in APPPATH\Controllers\Core\AuthController.php on line 27.
+ 1 APPPATH\Controllers\Core\AuthController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Core\\AuthController.php', 27)
+ 2 APPPATH\Controllers\Admin\Category.php(14): App\Controllers\Core\AuthController->before([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:56:09 --> ErrorException: Undefined array key "category"
+[Method: POST, Route: admin/category/insert]
+in APPPATH\Controllers\Admin\Category.php on line 44.
+ 1 APPPATH\Controllers\Admin\Category.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Category.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 14:57:46 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: admin/category/update]
+in APPPATH\Controllers\Admin\Category.php on line 69.
+ 1 APPPATH\Controllers\Admin\Category.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Category.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 15:07:57 --> ErrorException: Undefined array key "Token"
+[Method: GET, Route: admin/log/index]
+in APPPATH\Controllers\Core\AuthController.php on line 27.
+ 1 APPPATH\Controllers\Core\AuthController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Core\\AuthController.php', 27)
+ 2 APPPATH\Controllers\Admin\Log.php(14): App\Controllers\Core\AuthController->before([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Log->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 15:10:21 --> ErrorException: Undefined array key "Token"
+[Method: GET, Route: admin/unit/index]
+in APPPATH\Controllers\Core\AuthController.php on line 27.
+ 1 APPPATH\Controllers\Core\AuthController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Core\\AuthController.php', 27)
+ 2 APPPATH\Controllers\Admin\Unit.php(14): App\Controllers\Core\AuthController->before([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Unit->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Unit))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 16:54:56 --> ErrorException: Undefined array key "Token"
+[Method: GET, Route: admin/stock/index]
+in APPPATH\Controllers\Core\AuthController.php on line 27.
+ 1 APPPATH\Controllers\Core\AuthController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Token"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Core\\AuthController.php', 27)
+ 2 APPPATH\Controllers\Admin\Stock.php(14): App\Controllers\Core\AuthController->before([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Stock->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Stock))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-24 16:57:21 --> ErrorException: Undefined array key "stock"
+[Method: POST, Route: admin/stock/update]
+in APPPATH\Controllers\Admin\Stock.php on line 58.
+ 1 APPPATH\Controllers\Admin\Stock.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stock"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Stock.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Stock->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Stock))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')

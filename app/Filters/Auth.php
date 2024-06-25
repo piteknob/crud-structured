@@ -2,13 +2,10 @@
 
 namespace App\Filters;
 
-use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
-use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\HTTP\ResponseInterface;
 use Config\Services;
-use PhpParser\Node\Expr\ErrorSuppress;
 
 class Auth implements FilterInterface
 {
