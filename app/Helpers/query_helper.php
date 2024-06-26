@@ -79,6 +79,7 @@ if (!function_exists('generateListData')) {
         $filter = isset($params['filter']) ? $params['filter'] : '';
         $start = isset($params['start']) ? $params['start'] : '';
         $end = isset($params['end']) ? $params['end'] : '';
+        $paginationParams = isset($params['pagination']) ? $params['pagination'] : '';
 
 
         $data = (object) [];
@@ -156,9 +157,52 @@ if (!function_exists('generateListData')) {
         if (!empty($orderByQuery)) {
             $sql .= orderBy($orderByQuery);
         }
-    
 
-        // Set Pagination from Params 
+
+
+        // Set Pagination from Params
+
+        if ($paginationParams == 'false') {
+            return $db->query($sql)->getResultArray();
+        }
+        if ($paginationParams == 'true') {
+            $pagination = true;
+
+            if (!empty($paginationResult)) {
+                $pagination = paginationValue($paginationResult);
+            }
+
+            if (!empty($pagination)) {
+
+                $countQuery = $sql;
+                $countResult = $db->query($countQuery)->getResultArray();
+                $countData = count($countResult);
+
+                $limit = isset($query['limit']['limit']) ? $query['limit']['limit'] : 5;
+                $offset = ($paginationPage - 1) * $limit;
+
+                $sql .= " LIMIT {$offset}, {$limit}";
+
+                $result = $db->query($sql)->getResultArray();
+                $jumlahPage = ceil($countData / $limit);
+                $pageSebelumnya = ($paginationPage - 1 > 0) ? ($paginationPage - 1) : null;
+                $pageSelanjutnya = ($paginationPage + 1 <= $jumlahPage) ? ($paginationPage + 1) : null;
+
+                // Data
+                $data->data = $result;
+                $data->pagination = [
+                    'jumlah_data' => $countData,
+                    'jumlah_page' => $jumlahPage,
+                    'page' => $paginationPage,
+                    'page_sebelumnya' => $pageSebelumnya,
+                    'page_selanjutnya' => $pageSelanjutnya
+                ];
+                return $data;
+            }
+        }
+
+
+        // Set Pagination from Controller 
 
         $pagination = true;
         if (!empty($paginationResult)) {
@@ -329,11 +373,27 @@ if (!function_exists('filterBetween')) {
             return $sql;
         } else {
             if (!empty($search)) {
-                foreach ($data as $key => $value) {
-                    $sql = " AND {$value} BETWEEN '{$start}' AND '{$end}' AND ";
+                if (!empty($start) && ($end)) {
+                    foreach ($data as $key => $value) {
+                        $sql = " AND {$value} BETWEEN '{$start}' AND '{$end}' AND ";
+                    }
+                    $sql = rtrim($sql, ' AND ');
+                    return $sql;
                 }
-                $sql = rtrim($sql, ' AND ');
-                return $sql;
+                if (!empty($start)) {
+                    foreach ($data as $key => $value) {
+                        $sql = " AND {$value} BETWEEN '{$start}' AND '9999999999999999999' AND ";
+                    }
+                    $sql = rtrim($sql, ' AND ');
+                    return $sql;
+                }
+                if (!empty($end)) {
+                    foreach ($data as $key => $value) {
+                        $sql = " AND {$value} BETWEEN '{$start}' AND '{$end}' AND ";
+                    }
+                    $sql = rtrim($sql, ' AND ');
+                    return $sql;
+                }
             } else {
                 if (!empty($filter)) {
                     foreach ($data as $key => $value) {

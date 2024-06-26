@@ -1,0 +1,659 @@
+CRITICAL - 2024-06-26 08:52:59 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 12.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 4 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 08:53:10 --> ErrorException: Array to string conversion
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 12.
+ 1 APPPATH\Views\lol.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 08:54:58 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 13.
+ 1 APPPATH\Views\lol.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 08:55:11 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 13.
+ 1 APPPATH\Views\lol.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 08:55:39 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 13.
+ 1 APPPATH\Views\lol.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 08:56:13 --> ErrorException: Undefined array key "product"
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 12.
+ 1 APPPATH\Views\lol.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 08:56:19 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Controllers\Coba.php on line 38.
+ 1 APPPATH\Controllers\Coba.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Coba.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 08:57:10 --> ErrorException: Attempt to read property "product" on array
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 13.
+ 1 APPPATH\Views\lol.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product" on array', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 08:57:14 --> ErrorException: Attempt to read property "product" on array
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 13.
+ 1 APPPATH\Views\lol.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product" on array', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:01:38 --> ErrorException: Attempt to read property "product" on array
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 13.
+ 1 APPPATH\Views\lol.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product" on array', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:01:39 --> ErrorException: Attempt to read property "product" on array
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 13.
+ 1 APPPATH\Views\lol.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product" on array', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:02:22 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 17.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 3 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:03:15 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 15.
+ 1 APPPATH\Views\lol.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:03:35 --> ErrorException: Attempt to read property "product" on array
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 14.
+ 1 APPPATH\Views\lol.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product" on array', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:03:55 --> ErrorException: Attempt to read property "product" on array
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 14.
+ 1 APPPATH\Views\lol.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product" on array', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:03:58 --> ErrorException: Attempt to read property "product" on array
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 14.
+ 1 APPPATH\Views\lol.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product" on array', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:04:02 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 15.
+ 1 APPPATH\Views\lol.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:38:43 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 15.
+ 1 APPPATH\Views\lol.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:40:22 --> ErrorException: Array to string conversion
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 14.
+ 1 APPPATH\Views\lol.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:40:33 --> ErrorException: Array to string conversion
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 14.
+ 1 APPPATH\Views\lol.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:43:14 --> ErrorException: Undefined variable $lol
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 24.
+ 1 APPPATH\Views\lol.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lol', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:43:17 --> ErrorException: Undefined variable $lol
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 24.
+ 1 APPPATH\Views\lol.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lol', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:43:21 --> ErrorException: Undefined variable $lol
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 24.
+ 1 APPPATH\Views\lol.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lol', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:43:23 --> ErrorException: Undefined variable $lol
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 24.
+ 1 APPPATH\Views\lol.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lol', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:43:42 --> ErrorException: Undefined variable $lol
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Views\lol.php on line 24.
+ 1 APPPATH\Views\lol.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lol', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\lol.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lol', [], true)
+ 5 APPPATH\Controllers\Coba.php(44): view('lol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 09:44:22 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Controllers\Coba.php on line 38.
+ 1 APPPATH\Controllers\Coba.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Coba.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 10:27:56 --> ErrorException: Undefined variable $sql
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 383.
+ 1 APPPATH\Helpers\query_helper.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sql', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\query_helper.php', 383)
+ 2 APPPATH\Helpers\query_helper.php(150): filterBetween([...], '', '', true, 'ayam', '')
+ 3 APPPATH\Controllers\ListPublic.php(51): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ListPublic->listProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListPublic))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 10:28:25 --> ErrorException: Undefined variable $sql
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 385.
+ 1 APPPATH\Helpers\query_helper.php(385): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sql', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\query_helper.php', 385)
+ 2 APPPATH\Helpers\query_helper.php(150): filterBetween([...], '', '', true, 'ayam', '')
+ 3 APPPATH\Controllers\ListPublic.php(51): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ListPublic->listProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListPublic))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 10:28:26 --> ErrorException: Undefined variable $sql
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 385.
+ 1 APPPATH\Helpers\query_helper.php(385): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sql', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\query_helper.php', 385)
+ 2 APPPATH\Helpers\query_helper.php(150): filterBetween([...], '', '', true, 'ayam', '')
+ 3 APPPATH\Controllers\ListPublic.php(51): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ListPublic->listProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListPublic))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 10:28:35 --> ErrorException: Undefined variable $sql
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 386.
+ 1 APPPATH\Helpers\query_helper.php(386): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sql', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\query_helper.php', 386)
+ 2 APPPATH\Helpers\query_helper.php(150): filterBetween([...], '', '', true, 'ayam', '')
+ 3 APPPATH\Controllers\ListPublic.php(51): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ListPublic->listProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListPublic))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 11:31:07 --> Error: Call to undefined function App\Controllers\baseLink()
+[Method: GET, Route: Coba/curl]
+in APPPATH\Controllers\Coba.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 11:31:56 --> Error: Call to undefined function App\Controllers\baseLink()
+[Method: GET, Route: Coba/curl]
+in APPPATH\Controllers\Coba.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 11:38:15 --> Error: Call to undefined function App\Controllers\baseLink()
+[Method: GET, Route: Coba/curl]
+in APPPATH\Controllers\Coba.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 11:38:22 --> Error: Call to undefined function App\Controllers\baseLink()
+[Method: GET, Route: Coba/curl]
+in APPPATH\Controllers\Coba.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 11:38:48 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: Coba/curl]
+in APPPATH\Helpers\curl_helper.php on line 30.
+ 1 APPPATH\Helpers\curl_helper.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\curl_helper.php', 30)
+ 2 APPPATH\Controllers\Coba.php(50): baseLink('owkaoaw')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 11:51:49 --> ParseError: syntax error, unexpected token "}", expecting "("
+[Method: GET, Route: admin/Product/index]
+in APPPATH\Helpers\curl_helper.php on line 38.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 APPPATH\Controllers\Core\AuthController.php(18): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\AuthController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 14:31:57 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Controllers\Coba.php on line 38.
+ 1 APPPATH\Controllers\Coba.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Coba.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 14:54:24 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: LoginSystem/login]
+in APPPATH\Helpers\curl_helper.php on line 40.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 APPPATH\Controllers\Core\AuthController.php(18): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\AuthController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 14:54:26 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: LoginSystem/login]
+in APPPATH\Helpers\curl_helper.php on line 40.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 APPPATH\Controllers\Core\AuthController.php(18): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\AuthController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 14:54:38 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: LoginSystem/login]
+in APPPATH\Helpers\curl_helper.php on line 40.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 APPPATH\Controllers\Core\AuthController.php(18): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\AuthController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 15:09:59 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: Coba/kocak]
+in APPPATH\Controllers\Coba.php on line 38.
+ 1 APPPATH\Controllers\Coba.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Coba.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->kocak()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 15:30:27 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: Coba/curl]
+in APPPATH\Helpers\curl_helper.php on line 298.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 15:30:29 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: Coba/curl]
+in APPPATH\Helpers\curl_helper.php on line 298.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 15:32:11 --> ErrorException: Array to string conversion
+[Method: GET, Route: Coba/curl]
+in APPPATH\Helpers\curl_helper.php on line 295.
+ 1 APPPATH\Helpers\curl_helper.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\curl_helper.php', 295)
+ 2 APPPATH\Controllers\Coba.php(50): postField([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 15:32:12 --> ErrorException: Array to string conversion
+[Method: GET, Route: Coba/curl]
+in APPPATH\Helpers\curl_helper.php on line 295.
+ 1 APPPATH\Helpers\curl_helper.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\curl_helper.php', 295)
+ 2 APPPATH\Controllers\Coba.php(50): postField([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 15:32:13 --> ErrorException: Array to string conversion
+[Method: GET, Route: Coba/curl]
+in APPPATH\Helpers\curl_helper.php on line 295.
+ 1 APPPATH\Helpers\curl_helper.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\curl_helper.php', 295)
+ 2 APPPATH\Controllers\Coba.php(50): postField([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 15:32:59 --> ErrorException: Array to string conversion
+[Method: GET, Route: Coba/curl]
+in APPPATH\Helpers\curl_helper.php on line 295.
+ 1 APPPATH\Helpers\curl_helper.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\curl_helper.php', 295)
+ 2 APPPATH\Controllers\Coba.php(50): postField([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 15:33:01 --> ErrorException: Array to string conversion
+[Method: GET, Route: Coba/curl]
+in APPPATH\Helpers\curl_helper.php on line 295.
+ 1 APPPATH\Helpers\curl_helper.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\curl_helper.php', 295)
+ 2 APPPATH\Controllers\Coba.php(50): postField([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-06-26 15:33:01 --> ErrorException: Array to string conversion
+[Method: GET, Route: Coba/curl]
+in APPPATH\Helpers\curl_helper.php on line 295.
+ 1 APPPATH\Helpers\curl_helper.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\curl_helper.php', 295)
+ 2 APPPATH\Controllers\Coba.php(50): postField([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->curl()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')

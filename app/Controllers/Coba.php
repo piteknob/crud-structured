@@ -18,7 +18,7 @@ class Coba extends DataController
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://pitekapi.000webhostapp.com/ListPublic/listproduct?page=2',
+            CURLOPT_URL => 'https://pitekapi.000webhostapp.com/ListPublic/listproduct?page=1',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -42,5 +42,12 @@ class Coba extends DataController
         }
         // $this->load->view('welcome_message', $data);
         return view('lol', $data);
+    }
+
+    public function curl()
+    {
+        $d = ['lol' => 'okcao'];
+        postField($d);
+        
     }
 }

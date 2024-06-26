@@ -1,6 +1,11 @@
 <?php 
-print_r($data);
+if (isset($_POST["submit"])) {
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+    
+}
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +14,16 @@ print_r($data);
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo $data[0]; ?></h1>
+<form action="" method="post">
+        <ul>
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="password">  
+            <br><br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
+            <br><br>
+            <button type="submit" name="submit">Login</button>
+        </ul>
+    </form>
 </body>
 </html>

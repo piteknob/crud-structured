@@ -48,7 +48,7 @@ class ListPublic extends DataController
             'product_stock_price_sell'
         ];
 
-        $data = generateListData($this->request->getVar(), $query, $this->db);
+        $data = generateListData($this->request->getGet(), $query, $this->db);
 
         return $this->responseSuccess(ResponseInterface::HTTP_OK, 'List Product', $data);
     }
