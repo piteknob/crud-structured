@@ -1,5 +1,6 @@
 <?php
 
+
 // OPT POST
 function curlSetOptPost($curl)
 {
@@ -14,72 +15,42 @@ function curlSetOptPost($curl)
     $post_field = isset($curl['post_field']) ?  $curl['post_field'] : '';
 
 
-
     if (!empty($url)) {
         $url = BaseUrlCurl($url);
-        // print_r($url);
-        // die;
     }
 
     if (!empty($method)) {
         $method = customRequest($method);
-        // print_r($method);
-        // die;
     }
 
     if (!empty($endpoint)) {
         $endpoint = endPoint($endpoint);
-        // print_r($method);
-        // die;
     }
 
     if (!empty($return_transfer)) {
         $return_transfer = returnTransfer($return_transfer);
-        // print_r($return_transfer);
-        // die;
     }
 
     if (!empty($max_redirect)) {
         $max_redirect = maxRedirect($max_redirect);
-        // print_r($max_redirect);
-        // die;
     }
 
     if (!empty($timeout)) {
         $timeout = timeOut($timeout);
-        // print_r($timeout);
-        // die;
     }
 
     if (!empty($follow_location)) {
         $follow_location = followLocation($follow_location);
-        // print_r($follow_location);
-        // die;
     }
 
     if (!empty($http_header)) {
         $http_header = httpHeader($http_header);
-        // print_r($http_header);
-        // die;
     }
 
     if (!empty($post_field)) {
         $post_field = postField($post_field);
-        // print_r($post_field);
-        // die;
     }
 
-    // curl_setopt_array($curl, array(
-    //     CURLOPT_URL => 'http://localhost:8080/LoginSystem/login',
-    //     CURLOPT_RETURNTRANSFER => true,
-    //     CURLOPT_ENCODING => '',
-    //     CURLOPT_MAXREDIRS => 10,
-    //     CURLOPT_TIMEOUT => 0,
-    //     CURLOPT_FOLLOWLOCATION => true,
-    //     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-    //     CURLOPT_CUSTOMREQUEST => 'POST',
-    //     CURLOPT_POSTFIELDS => array('email' => 'vino@gmail.com','password' => '123456'),
-    //   ));
 
 
     $curl = curl_init();
@@ -93,10 +64,10 @@ function curlSetOptPost($curl)
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => "{$method}",
         CURLOPT_HTTPHEADER => array(
-            "'{$http_header}'"
+            "{$http_header}"
         ),
         CURLOPT_POSTFIELDS => array(
-            "'{$post_field}'"
+            $post_field
         ),
     ));
 
@@ -106,21 +77,6 @@ function curlSetOptPost($curl)
 
     return $response;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // OPT GET
 function curlSetOptGet($curl)
@@ -134,68 +90,57 @@ function curlSetOptGet($curl)
     $follow_location = isset($curl['follow_location']) ?  $curl['follow_location'] : '';
     $http_header = isset($curl['http_header']) ?  $curl['http_header'] : '';
     $pagination = isset($curl['pagination']) ?  $curl['pagination'] : '';
-
+    $params = isset($curl['params']) ? $curl['params'] : '';
 
 
     if (!empty($url)) {
         $url = BaseUrlCurl($url);
-        // print_r($url);
-        // die;
     }
 
     if (!empty($method)) {
         $method = customRequest($method);
-        // print_r($method);
-        // die;
     }
 
     if (!empty($endpoint)) {
         $endpoint = endPoint($endpoint);
-        // print_r($method);
-        // die;
+    }
+
+    if (!empty($params)) {
+        $params = params($params);
+        $paramStatus = true;
+    } else {
+        $paramStatus = false;
+    }
+
+    if (!empty($pagination)) {
+        $pagination = pagination($pagination, $paramStatus);
     }
 
     if (!empty($return_transfer)) {
         $return_transfer = returnTransfer($return_transfer);
-        // print_r($return_transfer);
-        // die;
     }
 
     if (!empty($max_redirect)) {
         $max_redirect = maxRedirect($max_redirect);
-        // print_r($max_redirect);
-        // die;
     }
 
     if (!empty($timeout)) {
         $timeout = timeOut($timeout);
-        // print_r($timeout);
-        // die;
     }
 
     if (!empty($follow_location)) {
         $follow_location = followLocation($follow_location);
-        // print_r($follow_location);
-        // die;
     }
 
     if (!empty($http_header)) {
         $http_header = httpHeader($http_header);
-        // print_r($http_header);
-        // die;
-    }
-
-    if (!empty($pagination)) {
-        $pagination = pagination($pagination);
-        // print_r($pagination);
-        // die;
     }
 
 
-
+    // ---------- set CurL ---------- //
     $curl = curl_init();
     curl_setopt_array($curl, array(
-        CURLOPT_URL => "{$url}/{$endpoint}{$pagination}",
+        CURLOPT_URL => "{$url}/{$endpoint}{$params}{$pagination}",
         CURLOPT_RETURNTRANSFER => "{$return_transfer}",
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => "{$max_redirect}",
@@ -204,27 +149,21 @@ function curlSetOptGet($curl)
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => "{$method}",
         CURLOPT_HTTPHEADER => array(
-            "'{$http_header}'"
+            "{$http_header}"
         ),
-
     ));
 
     $response = curl_exec($curl);
-
     curl_close($curl);
-
     return $response;
 }
 
 
-
-//-----------------printilan
+//----------------- PRINTILAN -----------------//
 function BaseUrlCurl($url)
 {
     foreach ($url as $key => $value) {
         $url = $value;
-        // print_r($url);
-        // die;
         $curl = $url;
     }
     return $curl;
@@ -232,12 +171,48 @@ function BaseUrlCurl($url)
 
 function endPoint($point)
 {
+    $curl = '';
     foreach ($point as $key => $value) {
-        $ep = $value;
-        // print_r($ep);
-        // die;
+        $curl = $value;
     }
-    return $ep;
+    return $curl;
+}
+
+function params($params)
+{
+    $curl = '?';
+    foreach ($params as $key => $value) {
+        $curl .= "{$key}={$value}&";
+    }
+    $curl = rtrim($curl, '& ');
+    return $curl;
+}
+
+function pagination($pagination, $paramStatus)
+{
+    // get pagination value
+    foreach ($pagination as $key => $value) {
+        $pagination = $value;
+    }
+
+    if ($pagination == 'true') {
+        if (!empty($paramStatus)) {
+            $curl = "&pagination=true";
+            return $curl;
+        } else {
+            $curl = "?pagination=true";
+   
+            return $curl;
+        }
+    } else {
+        if (empty($paramStatus)) {
+            $curl = "?pagination=false";
+            return $curl;
+        } else {
+            $curl = "&pagination=false";
+            return $curl;
+        }
+    }
 }
 
 
@@ -252,11 +227,17 @@ function returnTransfer($transfer)
 
 function maxRedirect($direct)
 {
+    foreach ($direct as $key => $value) {
+        $direct = $value;
+    }
     return $direct;
 }
 
 function timeOut($timeout)
 {
+    foreach ($timeout as $key => $value) {
+        $timeout = $value;
+    }
     return $timeout;
 }
 
@@ -282,10 +263,12 @@ function customRequest($cusReq)
 
 function httpHeader($httphead)
 {
+    $curl = '';
     foreach ($httphead as $key => $value) {
-        $dd = $value;
+        $curl = "{$key}: {$value},";
     }
-    return $dd;
+    $curl = rtrim($curl, ', ');
+    return $curl;
 }
 
 function postField($post_field)
@@ -295,16 +278,5 @@ function postField($post_field)
         $curl .= "'{$key}' => '{$value}',";
     }
     $curl = rtrim($curl, ', ');
-    // print_r($curl);
-    // die;
-
     return $post_field;
-}
-
-function pagination($pagination)
-{
-    foreach ($pagination as $key => $value) {
-        $curl = "?{$key}={$value}";
-    }
-    return $curl;
 }

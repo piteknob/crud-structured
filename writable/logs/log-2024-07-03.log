@@ -1,0 +1,22 @@
+CRITICAL - 2024-07-03 09:05:40 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: ListPublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 256.
+ 1 APPPATH\Controllers\ListPublic.php(51): generateListData([], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ListPublic->listProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListPublic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-03 09:05:42 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: ListPublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 256.
+ 1 APPPATH\Controllers\ListPublic.php(51): generateListData([], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ListPublic->listProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListPublic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')

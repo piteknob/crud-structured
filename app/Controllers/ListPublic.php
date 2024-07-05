@@ -1,15 +1,14 @@
-<?php 
+<?php
 
 namespace App\Controllers;
 
 use App\Controllers\Core\DataController;
 use CodeIgniter\HTTP\ResponseInterface;
 
-class ListPublic extends DataController
+class Listpublic extends DataController
 {
     public function listProduct()
     {
-
         $query['data'] = ['product'];
 
         $query['select'] = [
@@ -30,7 +29,7 @@ class ListPublic extends DataController
         ];
 
         $query['limit'] = [
-            'limit' => 5
+            'limit' => 2
         ];
 
         $query['search_data'] = [
@@ -71,7 +70,7 @@ class ListPublic extends DataController
         ];
 
         $data = generateListData($this->request->getVar(), $query, $this->db);
-        
+
         return $this->responseSuccess(ResponseInterface::HTTP_OK, 'List Unit', $data);
     }
 
@@ -93,7 +92,9 @@ class ListPublic extends DataController
         ];
 
         $data = generateListData($this->request->getVar(), $query, $this->db);
-        
+
         return $this->responseSuccess(ResponseInterface::HTTP_OK, 'List Category', $data);
     }
+
+    
 }

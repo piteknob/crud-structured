@@ -1,0 +1,333 @@
+CRITICAL - 2024-07-05 09:28:09 --> ParseError: syntax error, unexpected variable "$data"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 561.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 09:28:11 --> ParseError: syntax error, unexpected variable "$data"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 561.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 09:28:11 --> ParseError: syntax error, unexpected variable "$data"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 561.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 09:36:08 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 539.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 09:40:37 --> ErrorException: Undefined variable $pageStartEnd
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 563.
+ 1 APPPATH\Helpers\query_helper.php(563): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageStartEnd', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\query_helper.php', 563)
+ 2 APPPATH\Helpers\query_helper.php(245): detailPage(5.0, 1, [...])
+ 3 APPPATH\Controllers\Listpublic.php(50): generateListData([], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Listpublic->listProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listpublic))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 10:36:25 --> ArgumentCountError: Too few arguments to function detailPage(), 3 passed in C:\xampp\htdocs\crud-structured\app\Helpers\query_helper.php on line 245 and exactly 4 expected
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 539.
+ 1 APPPATH\Helpers\query_helper.php(245): detailPage(5.0, 1, 10)
+ 2 APPPATH\Controllers\Listpublic.php(50): generateListData([], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Listpublic->listProduct()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listpublic))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 10:37:22 --> ErrorException: Trying to access array offset on value of type int
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 554.
+ 1 APPPATH\Helpers\query_helper.php(554): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\query_helper.php', 554)
+ 2 APPPATH\Helpers\query_helper.php(245): detailPage(3.0, 1, 10, 4)
+ 3 APPPATH\Controllers\Listpublic.php(50): generateListData([], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Listpublic->listProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listpublic))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 10:37:24 --> ErrorException: Trying to access array offset on value of type int
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 554.
+ 1 APPPATH\Helpers\query_helper.php(554): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\query_helper.php', 554)
+ 2 APPPATH\Helpers\query_helper.php(245): detailPage(3.0, 1, 10, 4)
+ 3 APPPATH\Controllers\Listpublic.php(50): generateListData([], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Listpublic->listProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listpublic))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 10:51:10 --> ErrorException: Undefined array key 2
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 567.
+ 1 APPPATH\Helpers\query_helper.php(567): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\query_helper.php', 567)
+ 2 APPPATH\Helpers\query_helper.php(245): detailPage(3.0, '2', 10, 4)
+ 3 APPPATH\Controllers\Listpublic.php(50): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Listpublic->listProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listpublic))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 10:51:12 --> ErrorException: Undefined array key 2
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 567.
+ 1 APPPATH\Helpers\query_helper.php(567): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\crud-structured\\app\\Helpers\\query_helper.php', 567)
+ 2 APPPATH\Helpers\query_helper.php(245): detailPage(3.0, '2', 10, 4)
+ 3 APPPATH\Controllers\Listpublic.php(50): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Listpublic->listProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listpublic))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 10:52:18 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 566.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-05 11:03:55 --> ParseError: syntax error, unexpected token ")", expecting ";"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 569.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:03:57 --> ParseError: syntax error, unexpected token ")", expecting ";"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 569.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:03:57 --> ParseError: syntax error, unexpected token ")", expecting ";"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 569.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:09:35 --> ParseError: syntax error, unexpected token "]"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 580.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:20:04 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 557.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:26:19 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 235.
+ 1 APPPATH\Controllers\Listpublic.php(50): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Listpublic->listProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listpublic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:26:19 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 235.
+ 1 APPPATH\Controllers\Listpublic.php(50): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Listpublic->listProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listpublic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:28:50 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 574.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:28:51 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 574.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:28:52 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 574.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:28:52 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 574.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:32:51 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 576.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:32:52 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 576.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 11:32:53 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 576.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 14:28:42 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 186.
+ 1 APPPATH\Controllers\Listpublic.php(50): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Listpublic->listProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listpublic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-05 14:28:44 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: listpublic/listproduct]
+in APPPATH\Helpers\query_helper.php on line 186.
+ 1 APPPATH\Controllers\Listpublic.php(50): generateListData([...], [...], Object(CodeIgniter\Database\MySQLi\Connection))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Listpublic->listProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listpublic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
