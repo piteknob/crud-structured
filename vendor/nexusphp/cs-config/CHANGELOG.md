@@ -5,6 +5,54 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v3.23.1](https://github.com/NexusPHP/cs-config/compare/v3.23.0...v3.23.1) - 2024-06-16
+
+- Refactor AbstractCustomFixerTestCase
+
+## [v3.23.0](https://github.com/NexusPHP/cs-config/compare/v3.22.1...v3.23.0) - 2024-05-18
+
+- Fix for phpstan
+- Bump to php-cs-fixer v3.54
+- Enable `php_unit_attributes`
+- Enable `ordered_attributes`
+- feat: enable parallel fixing (#5)
+- Enable `import_symbols` option on `fully_qualified_strict_types`
+
+## [v3.22.1](https://github.com/NexusPHP/cs-config/compare/v3.22.0...v3.22.1) - 2024-03-24
+
+- Allow phpunit v11
+- Remove deprecated option of `nullable_type_declaration_for_default_null_value`
+
+## [v3.22.0](https://github.com/NexusPHP/cs-config/compare/v3.21.0...v3.22.0) - 2024-02-24
+
+- Bump to php-cs-fixer v3.50
+- Update options for `no_superfluous_phpdoc_tags`
+- Enable `phpdoc_array_type`
+
+## [v3.21.0](https://github.com/NexusPHP/cs-config/compare/v3.20.0...v3.21.0) - 2024-02-05
+
+- Bump to php-cs-fixer v3.49
+- Add `string_implicit_slashes` fixer
+- Enable `phpdoc_list_type` fixer
+
+## [v3.20.0](https://github.com/NexusPHP/cs-config/compare/v3.19.0...v3.20.0) - 2024-01-23
+
+- Bump to php-cs-fixer v3.46
+- Enable `union_types` option for phpdoc_to fixers
+- Disable `numeric_literal_separator`
+- Enable `multiline_string_to_heredoc`
+- Disable `heredoc_closing_marker`
+- Enable `spacing` option and add more `tags` to `phpdoc_align`
+- Bump actions/cache from 3 to 4 (#4)
+
+## [v3.19.0](https://github.com/NexusPHP/cs-config/compare/v3.18.0...v3.19.0) - 2023-12-29
+
+- Bump minimum PHP version to PHP 8.1
+- Bump to php-cs-fixer v3.43
+- Run build on PHP 8.3
+- Bump to phpunit v10.5
+- Fix sample ruleset in README
+
 ## [v3.18.0](https://github.com/NexusPHP/cs-config/compare/v3.17.0...v3.18.0) - 2023-10-13
 
 - Bump to php-cs-fixer v3.35

@@ -15,7 +15,10 @@
         <button id="search_btn"><span class="material-symbols-outlined">search</span></button>
     </div>
     <div class="card_container container" id="search_results"></div>
-
+    <?php 
+    print_r($data_page);
+    die;
+    ?>
 
     <div class="card_container container">
         <?php foreach ($data_page['result']['data'] as $p) : ?>
@@ -33,70 +36,18 @@
     <div class="container pagination">
         <?php if (!empty($data_page['result']['pagination']['prev'])) {
             $num = $data_page['result']['pagination']['prev']; ?>
-            <a href="/lol?page=<?= $num; ?>">&laquo;</a>
+            <a href="/tes?page=<?= $num; ?>">&laquo;</a>
         <?php }  ?>
         <?php for ($i = 1; $i <= $data_page['result']['pagination']['jumlah_page']; $i++) { ?>
-            <a class="paginat" href="/lol?page=<?= $i; ?>"><?php echo $i ?></a>
+            <a class="paginat" href="/tes?page=<?= $i; ?>"><?php echo $i ?></a>
         <?php } ?>
         <?php if (!empty($data_page['result']['pagination']['next'])) {
             $num = $data_page['result']['pagination']['next']; ?>
-            <a href="/lol?page=<?= $num; ?>">&raquo;</a>
+            <a href="/tes?page=<?= $num; ?>">&raquo;</a>
         <?php }  ?>
     </div>
 
-    <script>
-        function search() {
-            $("#search_results").html("");
-            $.ajax({
-                url: "https://pitekapi.000webhostapp.com/listpublic/listproduct",
-                type: "get",
-                dataType: "json",
-                data: {
-                    'pagination': 'true',
-                    'search': $("#search-input").val(), //meminta jquery untuk mengambil inputan dari html dengan id search-input dan val() adalah ambil apa saja 
-                },
-                success: function(result) {
-                    if (result.Response == "True") {
-                        let produk = result.Search;
-                        $.each(produk, function(data) {
-                            $("#search_results").append(
-                                ` 
-        <div class="card_produk"> 
-                div class="card"> 
-                <img src="/img/pitek.jpg" alt="" /> 
-                <div class="card_text"> 
-                    <p>` + data.product + `</p> 
-                </div> 
-            </div> 
-        </div> 
-              `
-                            );
-                        });
-
-                        $("#search-input").val("");
-                    } else {
-                        $("#search_results").html(
-                            ` 
-              <h1 class="text-center">` +
-                            result.error +
-                            `</h1> 
-          `
-                        );
-                    }
-                },
-            });
-        }
-
-        $("#search_btn").on("click", function() {
-            search();
-        });
-
-        $('#search-input').on('keyup', function(e) {
-            if (e.keyCode === 13) {
-                search();
-            }
-        });
-    </script>
+    
 </body>
 
 </html>

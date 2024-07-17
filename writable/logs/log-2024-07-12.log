@@ -1,0 +1,1087 @@
+WARNING - 2024-07-12 10:12:11 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 112.
+ 1 APPPATH\Controllers\Curl.php(112): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:12:11 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: tes]
+in APPPATH\Controllers\Curl.php on line 130.
+ 1 APPPATH\Controllers\Curl.php(130): json_decode([...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:12:14 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: post]
+in APPPATH\Controllers\Curl.php on line 265.
+ 1 APPPATH\Controllers\Curl.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Curl.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:12:15 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: post]
+in APPPATH\Controllers\Curl.php on line 265.
+ 1 APPPATH\Controllers\Curl.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Curl.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:12:20 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: post]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(300): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:12:22 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: post]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(300): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:12:43 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: curl/produk]
+in APPPATH\Controllers\Curl.php on line 112.
+ 1 APPPATH\Controllers\Curl.php(112): json_decode([...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:12:47 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 112.
+ 1 APPPATH\Controllers\Curl.php(112): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:13:50 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 112.
+ 1 APPPATH\Controllers\Curl.php(112): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:17 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:17 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:18 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:18 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:18 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:18 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:18 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:52 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:53 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:53 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:54 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:14:55 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+WARNING - 2024-07-12 10:15:11 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode(null, true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:15:12 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: curl/produk]
+in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode([...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:15:13 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: curl/produk]
+in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode([...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:15:14 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: curl/produk]
+in APPPATH\Controllers\Curl.php on line 113.
+ 1 APPPATH\Controllers\Curl.php(113): json_decode([...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:16:17 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: curl/produk]
+in APPPATH\Controllers\Curl.php on line 110.
+ 1 APPPATH\Controllers\Curl.php(110): json_decode([...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:16:24 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: curl/produk]
+in APPPATH\Controllers\Curl.php on line 110.
+ 1 APPPATH\Controllers\Curl.php(110): json_decode([...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:17:49 --> ErrorException: Undefined variable $data_edit
+[Method: GET, Route: curl/produk]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_edit', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(131): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:17:58 --> ErrorException: Undefined variable $data_edit
+[Method: GET, Route: curl/produk]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_edit', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(131): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:18:01 --> ErrorException: Undefined array key "data"
+[Method: GET, Route: curl/produk]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(131): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:18:02 --> ErrorException: Undefined array key "data"
+[Method: GET, Route: curl/produk]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(131): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:18:04 --> ErrorException: Undefined array key "data"
+[Method: GET, Route: curl/produk]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(131): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:18:14 --> ErrorException: Undefined array key "data"
+[Method: GET, Route: curl/produk]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(131): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:18:45 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: curl/produk]
+in APPPATH\Views\Post.php on line 27.
+ 1 APPPATH\Views\Post.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(132): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:18:55 --> ErrorException: Undefined array key "id_category"
+[Method: GET, Route: curl/produk]
+in APPPATH\Views\Post.php on line 37.
+ 1 APPPATH\Views\Post.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_category"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(132): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:19:17 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: curl/editData]
+in APPPATH\Controllers\Curl.php on line 132.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('curl/editData', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('curl/editData')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('curl/editData')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:19:34 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: curl/editData]
+in APPPATH\Controllers\Curl.php on line 132.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('curl/editData', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('curl/editData')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('curl/editData')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:19:35 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:19:36 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:19:41 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:19:55 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:20:13 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:20:14 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:20:15 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:20:15 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:20:28 --> ParseError: Unclosed '(' does not match ']'
+[Method: GET, Route: curl/editData]
+in APPPATH\Controllers\Curl.php on line 276.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('curl/editData', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('curl/editData')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('curl/editData')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 10:21:52 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:22:03 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:22:14 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:23:00 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:23:00 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:23:01 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:25:46 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:25:50 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:30:50 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:30:51 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:30:51 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:30:52 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:30:53 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 11:16:20 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 11:16:22 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 11:16:46 --> ErrorException: Undefined array key "product"
+[Method: POST, Route: admin/product/update]
+in APPPATH\Controllers\Admin\Product.php on line 178.
+ 1 APPPATH\Controllers\Admin\Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Admin\\Product.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 14:16:23 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:16:26 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:16:29 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:16:33 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:16:33 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:24:45 --> ParseError: syntax error, unexpected token "return"
+[Method: POST, Route: curl/postData]
+in APPPATH\Helpers\curl_helper.php on line 193.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Core\BaseController.php(53): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 APPPATH\Controllers\Core\DataController.php(18): App\Controllers\Core\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Core\DataController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:30:52 --> ErrorException: Undefined variable $curl_c
+[Method: POST, Route: curl/postData]
+in APPPATH\Controllers\Curl.php on line 331.
+ 1 APPPATH\Controllers\Curl.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $curl_c', 'C:\\xampp\\htdocs\\crud-structured\\app\\Controllers\\Curl.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->postData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:30:53 --> ParseError: syntax error, unexpected variable "$curl_c"
+[Method: POST, Route: curl/postData]
+in APPPATH\Controllers\Curl.php on line 318.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('curl/postData', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('curl/postData')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('curl/postData')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:30:54 --> ParseError: syntax error, unexpected variable "$curl_c"
+[Method: POST, Route: curl/postData]
+in APPPATH\Controllers\Curl.php on line 318.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('curl/postData', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('curl/postData')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('curl/postData')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:30:54 --> ParseError: syntax error, unexpected variable "$curl_c"
+[Method: POST, Route: curl/postData]
+in APPPATH\Controllers\Curl.php on line 318.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('curl/postData', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('curl/postData')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('curl/postData')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:30:55 --> ParseError: syntax error, unexpected variable "$curl_c"
+[Method: POST, Route: curl/postData]
+in APPPATH\Controllers\Curl.php on line 318.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('curl/postData', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('curl/postData')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('curl/postData')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:30:55 --> ParseError: syntax error, unexpected variable "$curl_c"
+[Method: POST, Route: curl/postData]
+in APPPATH\Controllers\Curl.php on line 318.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('curl/postData', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('curl/postData')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('curl/postData')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:31:01 --> ParseError: syntax error, unexpected variable "$curl_c"
+[Method: POST, Route: curl/postData]
+in APPPATH\Controllers\Curl.php on line 318.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('curl/postData', 'POST')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('curl/postData')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('curl/postData')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:31:50 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:31:51 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:31:52 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:32:20 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:32:23 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:32:24 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:32:24 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:32:25 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:32:25 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:32:26 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:32:26 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:32:27 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:32:36 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: curl/editData]
+in APPPATH\Views\Post.php on line 17.
+ 1 APPPATH\Views\Post.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Post', [], true)
+ 5 APPPATH\Controllers\Curl.php(293): view('Post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->editData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-12 14:38:43 --> ParseError: syntax error, unexpected token "/"
+[Method: GET, Route: curl/editData]
+in APPPATH\Controllers\Curl.php on line 290.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('curl/editData', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('curl/editData')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('curl/editData')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')

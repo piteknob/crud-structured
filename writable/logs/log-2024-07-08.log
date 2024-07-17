@@ -1,0 +1,360 @@
+CRITICAL - 2024-07-08 10:14:30 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: tes]
+in APPPATH\Views\tes.php on line 21.
+ 1 APPPATH\Views\tes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tes', [], true)
+ 5 APPPATH\Controllers\Curl.php(137): view('tes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 10:14:33 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: tes]
+in APPPATH\Views\tes.php on line 21.
+ 1 APPPATH\Views\tes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tes', [], true)
+ 5 APPPATH\Controllers\Curl.php(137): view('tes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 10:15:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: tes]
+in APPPATH\Views\tes.php on line 21.
+ 1 APPPATH\Views\tes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tes', [], true)
+ 5 APPPATH\Controllers\Curl.php(137): view('tes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 10:15:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: tes]
+in APPPATH\Views\tes.php on line 21.
+ 1 APPPATH\Views\tes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tes', [], true)
+ 5 APPPATH\Controllers\Curl.php(137): view('tes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 10:30:01 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: product]
+in APPPATH\Views\tes.php on line 21.
+ 1 APPPATH\Views\tes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tes', [], true)
+ 5 APPPATH\Controllers\Curl.php(137): view('tes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 10:30:05 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: product]
+in APPPATH\Views\tes.php on line 21.
+ 1 APPPATH\Views\tes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tes', [], true)
+ 5 APPPATH\Controllers\Curl.php(137): view('tes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 10:30:08 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: product]
+in APPPATH\Views\tes.php on line 21.
+ 1 APPPATH\Views\tes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tes', [], true)
+ 5 APPPATH\Controllers\Curl.php(137): view('tes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 10:30:10 --> ErrorException: Undefined array key "result"
+[Method: GET, Route: product]
+in APPPATH\Views\tes.php on line 21.
+ 1 APPPATH\Views\tes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "result"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\tes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tes', [], true)
+ 5 APPPATH\Controllers\Curl.php(137): view('tes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:21:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 15.
+ 1 APPPATH\Views\Admin\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(157): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:21:12 --> ErrorException: Undefined array key "product"
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 20.
+ 1 APPPATH\Views\Admin\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(157): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:21:14 --> ErrorException: Undefined array key "product"
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 20.
+ 1 APPPATH\Views\Admin\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(157): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:21:16 --> ErrorException: Undefined array key "product"
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 20.
+ 1 APPPATH\Views\Admin\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(157): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:21:18 --> ErrorException: Undefined array key "product"
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 20.
+ 1 APPPATH\Views\Admin\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(157): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:21:40 --> ErrorException: Undefined array key "product"
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 20.
+ 1 APPPATH\Views\Admin\Product.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:34:59 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 27.
+ 1 APPPATH\Views\Admin\Product.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:35:01 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 27.
+ 1 APPPATH\Views\Admin\Product.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:35:03 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 27.
+ 1 APPPATH\Views\Admin\Product.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:35:07 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 27.
+ 1 APPPATH\Views\Admin\Product.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:38:56 --> ErrorException: Undefined variable $value
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 31.
+ 1 APPPATH\Views\Admin\Product.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:39:05 --> ErrorException: Undefined array key "product"
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 31.
+ 1 APPPATH\Views\Admin\Product.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:39:25 --> ErrorException: Undefined array key 10
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 31.
+ 1 APPPATH\Views\Admin\Product.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 10', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:39:49 --> ErrorException: Undefined array key 1
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 31.
+ 1 APPPATH\Views\Admin\Product.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:39:56 --> ErrorException: Undefined array key 0
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 31.
+ 1 APPPATH\Views\Admin\Product.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-08 14:43:50 --> ErrorException: Undefined variable $i
+[Method: GET, Route: product]
+in APPPATH\Views\Admin\Product.php on line 29.
+ 1 APPPATH\Views\Admin\Product.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-structured\\app\\Views\\Admin\\Product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH\Controllers\Curl.php(245): view('admin/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Curl->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Curl))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\crud-structured\\public\\index.php')

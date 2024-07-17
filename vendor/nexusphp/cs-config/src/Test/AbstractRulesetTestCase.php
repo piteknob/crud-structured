@@ -19,6 +19,7 @@ use PhpCsFixer\Fixer\FixerInterface;
 use PhpCsFixer\FixerConfiguration\DeprecatedFixerOptionInterface;
 use PhpCsFixer\FixerConfiguration\FixerOptionInterface;
 use PhpCsFixer\Preg;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -37,7 +38,7 @@ abstract class AbstractRulesetTestCase extends TestCase
     private static array $configuredFixers = [];
 
     /**
-     * @var array<string, array<string, bool|string|string[]>|bool>
+     * @var array<string, array<string, bool|list<string>|string>|bool>
      */
     private static array $enabledFixers = [];
 
@@ -133,14 +134,13 @@ abstract class AbstractRulesetTestCase extends TestCase
     }
 
     /**
-     * @dataProvider provideEnabledConfigurableFixerUsesAllAvailableOptionsNotDeprecatedCases
-     *
-     * @param string[] $goodOptions
-     * @param string[] $deprecatedOptions
+     * @param list<string> $goodOptions
+     * @param list<string> $deprecatedOptions
      */
+    #[DataProvider('provideEnabledConfigurableFixerUsesAllAvailableOptionsNotDeprecatedCases')]
     final public function testEnabledConfigurableFixerUsesAllAvailableOptionsNotDeprecated(string $name, array $goodOptions, array $deprecatedOptions): void
     {
-        /** @var null|array<string, bool|string|string[]>|bool $ruleConfiguration */
+        /** @var null|array<string, bool|list<string>|string>|bool $ruleConfiguration */
         $ruleConfiguration = self::$enabledFixers[$name] ?? null;
 
         if (null === $ruleConfiguration) {
@@ -187,7 +187,7 @@ abstract class AbstractRulesetTestCase extends TestCase
     /**
      * @codeCoverageIgnore
      *
-     * @return iterable<string, array{0: string, 1: string[], 2: string[]}>
+     * @return iterable<string, array{0: string, 1: list<string>, 2: list<string>}>
      */
     public static function provideEnabledConfigurableFixerUsesAllAvailableOptionsNotDeprecatedCases(): iterable
     {
@@ -198,21 +198,21 @@ abstract class AbstractRulesetTestCase extends TestCase
             if ($fixer instanceof ConfigurableFixerInterface) {
                 $options = $fixer->getConfigurationDefinition()->getOptions();
 
-                $goodOptions = array_map(
+                $goodOptions = array_values(array_map(
                     static fn(FixerOptionInterface $option): string => $option->getName(),
                     array_filter(
                         $options,
                         static fn(FixerOptionInterface $option): bool => ! $option instanceof DeprecatedFixerOptionInterface,
                     ),
-                );
+                ));
 
-                $deprecatedOptions = array_map(
+                $deprecatedOptions = array_values(array_map(
                     static fn(FixerOptionInterface $option): string => $option->getName(),
                     array_filter(
                         $options,
                         static fn(FixerOptionInterface $option): bool => $option instanceof DeprecatedFixerOptionInterface,
                     ),
-                );
+                ));
 
                 yield $name => [$name, $goodOptions, $deprecatedOptions];
             }

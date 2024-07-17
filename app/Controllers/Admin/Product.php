@@ -62,16 +62,24 @@ class Product extends AuthController
 
     public function detailProduct()
     {
+        // Authorization Token
+        $token = $this->before(getallheaders());
+        if (!empty($token)) {
+            return $token;
+        }
+
         $id = $this->request->getVar();
         $id = $id['id'];
-    
+
         $query['data'] = ['product'];
 
         $query['select'] = [
             'product_id' => 'id',
             'product_stock_id' => 'id_stock',
             'product_name' => 'product',
+            'product_category_id' => 'id_category',
             'product_category_name' => 'category',
+            'product_stock_unit_id' => 'id_unit',
             'product_stock_unit_name' => 'unit',
             'product_stock_price_buy' => 'price_buy',
             'product_stock_price_sell' => 'price_sell',
@@ -85,15 +93,14 @@ class Product extends AuthController
         $query['join'] = [
             'product_stock' => 'product_stock.product_stock_product_id = product.product_id'
         ];
-        
+
         $query['where_detail'] = [
-            "WHERE product_id = $id" 
+            "WHERE product_id = $id"
         ];
 
         $data = generateDetailData($this->request->getVar(), $query, $this->db);
 
         return $this->responseSuccess(ResponseInterface::HTTP_OK, 'Detail Product', $data);
-
     }
 
     public function insert()

@@ -1,0 +1,769 @@
+CRITICAL - 2024-07-16 13:50:41 --> ErrorException: Undefined property: TCPDF::$response
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\PDF.php on line 21.
+ 1 APPPATH\Controllers\PDF.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: TCPDF::$response', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\PDF.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PDF->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDF))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:00:15 --> ErrorException: Undefined property: CodeIgniter\Database\MySQLi\Result::$getResultArray
+[Method: GET, Route: pdf/exportPDF]
+in APPPATH\Controllers\PDF.php on line 19.
+ 1 APPPATH\Controllers\PDF.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResultArray', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\PDF.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PDF->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDF))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-16 14:00:34 --> ErrorException: Undefined property: CodeIgniter\Database\MySQLi\Result::$getResultArray
+[Method: GET, Route: pdf/exportPDF]
+in APPPATH\Controllers\Pdf.php on line 19.
+ 1 APPPATH\Controllers\Pdf.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResultArray', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-16 14:20:51 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:20:51 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:20:52 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:20:52 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:20:52 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:20:54 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:20:55 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:20:55 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:20:55 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:20:55 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:20:55 --> ErrorException: Constant PDF_PAGE_ORIENTATION already defined
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant PDF_PAGE_ORIENTATION already defined', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 23)
+ 2 APPPATH\Controllers\Pdf.php(23): define('PDF_PAGE_ORIENTATION', 'L')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:36 --> ErrorException: Undefined variable $html
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 52.
+ 1 APPPATH\Controllers\Pdf.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:37 --> ErrorException: Undefined variable $html
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 52.
+ 1 APPPATH\Controllers\Pdf.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:38 --> ErrorException: Undefined variable $html
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 52.
+ 1 APPPATH\Controllers\Pdf.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:38 --> ErrorException: Undefined variable $html
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 52.
+ 1 APPPATH\Controllers\Pdf.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:47 --> ErrorException: Undefined variable $cellspacingx
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18324.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18324)
+ 2 APPPATH\Controllers\Pdf.php(50): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>id</th>
+        <th>status</th>
+        <th>product_name</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    <tr>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:48 --> ErrorException: Undefined variable $cellspacingx
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18324.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18324)
+ 2 APPPATH\Controllers\Pdf.php(50): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>id</th>
+        <th>status</th>
+        <th>product_name</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    <tr>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:48 --> ErrorException: Undefined variable $cellspacingx
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18324.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18324)
+ 2 APPPATH\Controllers\Pdf.php(50): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>id</th>
+        <th>status</th>
+        <th>product_name</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    <tr>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:49 --> ErrorException: Undefined variable $cellspacingx
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18324.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18324)
+ 2 APPPATH\Controllers\Pdf.php(50): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>id</th>
+        <th>status</th>
+        <th>product_name</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    <tr>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:49 --> ErrorException: Undefined variable $cellspacingx
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18324.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18324)
+ 2 APPPATH\Controllers\Pdf.php(50): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>id</th>
+        <th>status</th>
+        <th>product_name</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    <tr>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:49 --> ErrorException: Undefined variable $cellspacingx
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18324.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18324)
+ 2 APPPATH\Controllers\Pdf.php(50): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>id</th>
+        <th>status</th>
+        <th>product_name</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    <tr>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:49 --> ErrorException: Undefined variable $cellspacingx
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18324.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18324)
+ 2 APPPATH\Controllers\Pdf.php(50): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>id</th>
+        <th>status</th>
+        <th>product_name</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    <tr>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:50 --> ErrorException: Undefined variable $cellspacingx
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18324.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18324)
+ 2 APPPATH\Controllers\Pdf.php(50): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>id</th>
+        <th>status</th>
+        <th>product_name</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    <tr>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:50 --> ErrorException: Undefined variable $cellspacingx
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18324.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18324)
+ 2 APPPATH\Controllers\Pdf.php(50): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>id</th>
+        <th>status</th>
+        <th>product_name</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    <tr>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:36:50 --> ErrorException: Undefined variable $cellspacingx
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18324.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18324)
+ 2 APPPATH\Controllers\Pdf.php(50): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>id</th>
+        <th>status</th>
+        <th>product_name</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    <tr>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:55:12 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<h2>LAPORAN PENJUALAN:</h2><table border="1" cellspacing="1" cellpadding="1"><tr style="text-align: center;"><th>status<marker style="font-size:0"/></th><th>product<marker style="font-size:0"/></th><th>category<marker style="font-size:0"/></th><th>unit<marker style="font-size:0"/></th><th>value<marker style="font-size:0"/></th><th>price<marker style="font-size:0"/></th><th>customer_id<marker style="font-size:0"/></th><th>date<marker style="font-size:0"/></th></tr><tr>&nbsp; lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td></tr></table>')
+ 3 APPPATH\Controllers\Pdf.php(51): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr style="text-align: center;">
+        <th>status</th>
+        <th>product</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    </tr>
+    <tr>
+        <tdstyle="margin-left: 1px;">lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:55:13 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<h2>LAPORAN PENJUALAN:</h2><table border="1" cellspacing="1" cellpadding="1"><tr style="text-align: center;"><th>status<marker style="font-size:0"/></th><th>product<marker style="font-size:0"/></th><th>category<marker style="font-size:0"/></th><th>unit<marker style="font-size:0"/></th><th>value<marker style="font-size:0"/></th><th>price<marker style="font-size:0"/></th><th>customer_id<marker style="font-size:0"/></th><th>date<marker style="font-size:0"/></th></tr><tr>&nbsp; lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td></tr></table>')
+ 3 APPPATH\Controllers\Pdf.php(51): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr style="text-align: center;">
+        <th>status</th>
+        <th>product</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    </tr>
+    <tr>
+        <tdstyle="margin-left: 1px;">lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:55:13 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<h2>LAPORAN PENJUALAN:</h2><table border="1" cellspacing="1" cellpadding="1"><tr style="text-align: center;"><th>status<marker style="font-size:0"/></th><th>product<marker style="font-size:0"/></th><th>category<marker style="font-size:0"/></th><th>unit<marker style="font-size:0"/></th><th>value<marker style="font-size:0"/></th><th>price<marker style="font-size:0"/></th><th>customer_id<marker style="font-size:0"/></th><th>date<marker style="font-size:0"/></th></tr><tr>&nbsp; lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td></tr></table>')
+ 3 APPPATH\Controllers\Pdf.php(51): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr style="text-align: center;">
+        <th>status</th>
+        <th>product</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    </tr>
+    <tr>
+        <tdstyle="margin-left: 1px;">lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 14:55:14 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: pdf]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\wamp64\\www\\crud-structured\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<h2>LAPORAN PENJUALAN:</h2><table border="1" cellspacing="1" cellpadding="1"><tr style="text-align: center;"><th>status<marker style="font-size:0"/></th><th>product<marker style="font-size:0"/></th><th>category<marker style="font-size:0"/></th><th>unit<marker style="font-size:0"/></th><th>value<marker style="font-size:0"/></th><th>price<marker style="font-size:0"/></th><th>customer_id<marker style="font-size:0"/></th><th>date<marker style="font-size:0"/></th></tr><tr>&nbsp; lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td><td>lol<marker style="font-size:0"/></td></tr></table>')
+ 3 APPPATH\Controllers\Pdf.php(51): TCPDF->writeHTML('<h2>LAPORAN PENJUALAN:</h2>
+<table border="1" cellspacing="1" cellpadding="1">
+    <tr style="text-align: center;">
+        <th>status</th>
+        <th>product</th>
+        <th>category</th>
+        <th>unit</th>
+        <th>value</th>
+        <th>price</th>
+        <th>customer_id</th>
+        <th>date</th>
+    </tr>
+    <tr>
+        <tdstyle="margin-left: 1px;">lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+        <td>lol</td>
+    </tr>
+    
+    
+</table>')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 15:09:45 --> ErrorException: Undefined array key "sales_order_"
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 44.
+ 1 APPPATH\Controllers\Pdf.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sales_order_"', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 15:09:45 --> ErrorException: Undefined array key "sales_order_"
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 44.
+ 1 APPPATH\Controllers\Pdf.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sales_order_"', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 15:09:46 --> ErrorException: Undefined array key "sales_order_"
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 44.
+ 1 APPPATH\Controllers\Pdf.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sales_order_"', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-16 15:09:46 --> ErrorException: Undefined array key "sales_order_"
+[Method: GET, Route: pdf]
+in APPPATH\Controllers\Pdf.php on line 44.
+ 1 APPPATH\Controllers\Pdf.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sales_order_"', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Pdf.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pdf->exportPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')

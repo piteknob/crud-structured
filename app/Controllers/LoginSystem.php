@@ -101,7 +101,7 @@ class loginsystem extends AuthController
         // find expired token + 1 hour
         $date = date("Y-m-d H:i:s");
         $currentDate = strtotime($date);
-        $futureDate = $currentDate + (60 * 60); 
+        $futureDate = $currentDate + (60 * 1440); 
         $formatDate = date("Y-m-d H:i:s", $futureDate);
 
 

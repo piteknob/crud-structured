@@ -7,7 +7,7 @@ use CodeIgniter\HTTP\ResponseInterface;
 
 class Listpublic extends DataController
 {
-    public function listProduct()
+    public function list_product()
     {
         $query['data'] = ['product'];
 
@@ -95,6 +95,5 @@ class Listpublic extends DataController
 
         return $this->responseSuccess(ResponseInterface::HTTP_OK, 'List Category', $data);
     }
-
     
 }

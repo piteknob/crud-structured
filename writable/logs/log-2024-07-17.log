@@ -1,0 +1,377 @@
+CRITICAL - 2024-07-17 13:56:42 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: export/export_pdf]
+in APPPATH\Controllers\Export.php on line 76.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('export/export_pdf', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('export/export_pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('export/export_pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:12:03 --> PhpOffice\PhpSpreadsheet\Exception: Invalid cell coordinate H1 & I1
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 43.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(55): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('H1 & I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1399): PhpOffice\PhpSpreadsheet\Cell\Coordinate::indexesFromString('H1 & I1')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1289): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('H1 & I1')
+ 4 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1 & I1')
+ 5 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1 & I1', 'Date')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:12:05 --> PhpOffice\PhpSpreadsheet\Exception: Invalid cell coordinate H1 & I1
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 43.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(55): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('H1 & I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1399): PhpOffice\PhpSpreadsheet\Cell\Coordinate::indexesFromString('H1 & I1')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1289): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('H1 & I1')
+ 4 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1 & I1')
+ 5 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1 & I1', 'Date')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:12:05 --> PhpOffice\PhpSpreadsheet\Exception: Invalid cell coordinate H1 & I1
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 43.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(55): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('H1 & I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1399): PhpOffice\PhpSpreadsheet\Cell\Coordinate::indexesFromString('H1 & I1')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1289): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('H1 & I1')
+ 4 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1 & I1')
+ 5 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1 & I1', 'Date')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:10 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:11 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:11 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:11 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:12 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:12 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:12 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:12 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:13 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:13 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:13:13 --> PhpOffice\PhpSpreadsheet\Exception: Cell coordinate string can not be a range of cells.
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1337.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1286): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('H1:I1')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H1:I1')
+ 3 APPPATH\Controllers\Export.php(82): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('H1:I1', 'Date')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:14:05 --> Error: Object of class PhpOffice\PhpSpreadsheet\Worksheet\Worksheet could not be converted to string
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Validations.php on line 33.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1178): PhpOffice\PhpSpreadsheet\Worksheet\Validations::validateCellAddress(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 2 APPPATH\Controllers\Export.php(83): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'Date')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:14:05 --> Error: Object of class PhpOffice\PhpSpreadsheet\Worksheet\Worksheet could not be converted to string
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Validations.php on line 33.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1178): PhpOffice\PhpSpreadsheet\Worksheet\Validations::validateCellAddress(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 2 APPPATH\Controllers\Export.php(83): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'Date')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:14:06 --> Error: Object of class PhpOffice\PhpSpreadsheet\Worksheet\Worksheet could not be converted to string
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Validations.php on line 33.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1178): PhpOffice\PhpSpreadsheet\Worksheet\Validations::validateCellAddress(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 2 APPPATH\Controllers\Export.php(83): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'Date')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:14:06 --> Error: Object of class PhpOffice\PhpSpreadsheet\Worksheet\Worksheet could not be converted to string
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Validations.php on line 33.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1178): PhpOffice\PhpSpreadsheet\Worksheet\Validations::validateCellAddress(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 2 APPPATH\Controllers\Export.php(83): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'Date')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:14:06 --> Error: Object of class PhpOffice\PhpSpreadsheet\Worksheet\Worksheet could not be converted to string
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Validations.php on line 33.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1178): PhpOffice\PhpSpreadsheet\Worksheet\Validations::validateCellAddress(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 2 APPPATH\Controllers\Export.php(83): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'Date')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:14:07 --> Error: Object of class PhpOffice\PhpSpreadsheet\Worksheet\Worksheet could not be converted to string
+[Method: GET, Route: export/export_excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Validations.php on line 33.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1178): PhpOffice\PhpSpreadsheet\Worksheet\Validations::validateCellAddress(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 2 APPPATH\Controllers\Export.php(83): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'Date')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:30:58 --> ErrorException: Undefined array key ""
+[Method: GET, Route: export/export_excel]
+in APPPATH\Controllers\Export.php on line 74.
+ 1 APPPATH\Controllers\Export.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Export.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:30:58 --> ErrorException: Undefined array key 1
+[Method: GET, Route: export/export_excel]
+in APPPATH\Controllers\Export.php on line 74.
+ 1 APPPATH\Controllers\Export.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Export.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:30:58 --> ErrorException: Undefined array key 1
+[Method: GET, Route: export/export_excel]
+in APPPATH\Controllers\Export.php on line 74.
+ 1 APPPATH\Controllers\Export.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Export.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:30:58 --> ErrorException: Undefined array key 1
+[Method: GET, Route: export/export_excel]
+in APPPATH\Controllers\Export.php on line 74.
+ 1 APPPATH\Controllers\Export.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Export.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:30:59 --> ErrorException: Undefined array key 1
+[Method: GET, Route: export/export_excel]
+in APPPATH\Controllers\Export.php on line 74.
+ 1 APPPATH\Controllers\Export.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\wamp64\\www\\crud-structured\\app\\Controllers\\Export.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:31:02 --> Error: Cannot use [] for reading
+[Method: GET, Route: export/export_excel]
+in APPPATH\Controllers\Export.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:31:02 --> Error: Cannot use [] for reading
+[Method: GET, Route: export/export_excel]
+in APPPATH\Controllers\Export.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:31:02 --> Error: Cannot use [] for reading
+[Method: GET, Route: export/export_excel]
+in APPPATH\Controllers\Export.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:31:02 --> Error: Cannot use [] for reading
+[Method: GET, Route: export/export_excel]
+in APPPATH\Controllers\Export.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
+CRITICAL - 2024-07-17 14:31:04 --> Error: Cannot use [] for reading
+[Method: GET, Route: export/export_excel]
+in APPPATH\Controllers\Export.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->export_excel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\wamp64\\www\\crud-structured\\public\\index.php')
