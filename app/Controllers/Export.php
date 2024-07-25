@@ -5,9 +5,10 @@ namespace App\Controllers;
 use App\Controllers\Core\AuthController;
 use CodeIgniter\HTTP\ResponseInterface;
 use TCPDF;
-use PhpOffice\PhpSpreadsheet;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
+use PhpOffice\PhpSpreadsheet\Style\Alignment;
 
 class Export extends AuthController
 {
@@ -22,7 +23,6 @@ class Export extends AuthController
         $sales_order = $this->db->query($sales_order)->getResultArray();
         // print_r($sales_order);
         // die;
-        $count = count($sales_order);
 
 
         $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT);
@@ -41,16 +41,18 @@ class Export extends AuthController
                 </tr>';
 
         foreach ($sales_order as $key => $value) {
+            $date = $value['sales_order_date'];
+            $date = date('d/m/Y',strtotime($date));
             $html .=
                 '<tr>
         <td style="text-align: center;" colspan="2">' . $value['sales_order_status'] . '</td>
         <td style="text-align: center;" colspan="2">' . $value['sales_order_product_name'] . '</td>
         <td style="text-align: center;">' . $value['sales_order_category'] . '</td>
         <td style="text-align: center;">' . $value['sales_order_unit'] . '</td>
-        <td style="text-align: center;">' . $value['sales_order_value'] . '</td>
-        <td style="text-align: center;">' . $value['sales_order_price'] . '</td>
-        <td style="text-align: center;">' . $value['sales_order_customer_id'] . '</td>
-        <td style="text-align: center;" colspan="2">' . $value['sales_order_date'] . '</td>
+        <td style="text-align: right;">' . $value['sales_order_value'] . '</td>
+        <td style="text-align: right;">' . $value['sales_order_price'] . '</td>
+        <td style="text-align: right;">' . $value['sales_order_customer_id'] . '</td>
+        <td style="text-align: center;" colspan="2">' . $date . '</td>
         </tr>';
         }
 
@@ -70,34 +72,115 @@ class Export extends AuthController
         $fileName = 'sales_order.xlsx';
 
         $spreadsheet = new Spreadsheet();
-
         $sheet = $spreadsheet->getActiveSheet();
-        $sheet->mergeCells('A1:B1');
-        $sheet->setCellValue('A1', 'Status');
-        $sheet->mergeCells('C1:D1');
-        $sheet->setCellValue('C1', 'Product');
-        $sheet->setCellValue('E1', 'Category');
-        $sheet->setCellValue('F1', 'Unit');
-        $sheet->setCellValue('G1', 'Value');
-        $sheet->setCellValue('H1', 'Price');
-        $sheet->setCellValue('I1', 'Customer ID');
-        $sheet->mergeCells('J1:K1');
-        $sheet->setCellValue('J1', 'Date');
+        $count = count($sales_order);
+        $count = $count + 1;
 
-        $rows = 2;
+        // SET HEADER EXCEL
+        $sheet->setCellValue('A1', 'Status');
+        $sheet->setCellValue('B1', 'Product');
+        $sheet->setCellValue('C1', 'Category');
+        $sheet->setCellValue('D1', 'Unit');
+        $sheet->setCellValue('E1', 'Value');
+        $sheet->setCellValue('F1', 'Price');
+        $sheet->setCellValue('G1', 'Customer ID');
+        $sheet->setCellValue('H1', 'Date');
+
+        $i = 2;
         foreach ($sales_order as $key => $value) {
-            $sheet->mergeCells('A'.$rows.':B'.$rows.'');
-            $sheet->setCellValue('A' . $rows, $value['sales_order_status']);
-            $sheet->mergeCells('C'.$rows.':D'.$rows.'');
-            $sheet->setCellValue('C' . $rows, $value['sales_order_product_name']);
-            $sheet->setCellValue('E' . $rows, $value['sales_order_category']);
-            $sheet->setCellValue('F' . $rows, $value['sales_order_unit']);
-            $sheet->setCellValue('G' . $rows, $value['sales_order_value']);
-            $sheet->setCellValue('H' . $rows, $value['sales_order_price']);
-            $sheet->setCellValue('I' . $rows, $value['sales_order_customer_id']);
-            $sheet->mergeCells('J'.$rows.':K'.$rows.'');
-            $sheet->setCellValue('J' . $rows, $value['sales_order_date']);
-            $rows++;
+
+            $date = $value['sales_order_date'];
+            $date = date("d/m/Y", strtotime($date));
+
+            // GENERATE PRICE IN RUPIAH
+            $price = $value['sales_order_price'];
+            $price = strlen($price);
+            if ($price >= 3) {
+                $price = number_format($value['sales_order_price'], 2, ',', '.');
+            }
+
+            // SET CELL VALUE
+            $sheet->setCellValue('A' . $i, $value['sales_order_status']);
+            $sheet->setCellValue('B' . $i, $value['sales_order_product_name']);
+            $sheet->setCellValue('C' . $i, $value['sales_order_category']);
+            $sheet->setCellValue('D' . $i, $value['sales_order_unit']);
+            $sheet->setCellValue('E' . $i, $value['sales_order_value']);
+            $sheet->setCellValue('F' . $i, 'Rp.' . $price . '');
+            $sheet->setCellValue('G' . $i, $value['sales_order_customer_id']);
+            $sheet->setCellValue('H' . $i, $date);
+
+            $formatDate =
+            $spreadsheet->getActiveSheet()
+                ->getStyle('H' . $i . '')
+                ->getNumberFormat()
+                ->setFormatCode(NumberFormat::FORMAT_DATE_DDMMYYYY);
+
+            // SET FONT SIZE
+            $fontStyle = [
+                'font' => [
+                    'size' => 15
+                ]
+            ];
+            $sheet->getStyle("A1:H1")
+                ->applyFromArray($fontStyle);
+
+            // SET TITTLE AUTO BOLD
+            $sheet->getStyle('A1:H1')->getFont()->setBold(true);
+            $sheet->getStyle('A1:H1')->getFill()
+                ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID);
+
+            // SET STATUS COLOR
+            $status = $value['sales_order_status'];
+            if ($status == 'confirmed') {
+                $sheet->getStyle('A' . $i . '')->getFont()->setBold(true);
+                $sheet->getStyle('A' . $i . '')->getFill()
+                    ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
+                    ->getStartColor()->setARGB('41f518'); // BACKGORUND COLOR
+            }
+            if ($status == 'canceled') {
+                $sheet->getStyle('A' . $i . '')->getFont()->setBold(true);
+                $sheet->getStyle('A' . $i . '')->getFill()
+                    ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
+                    ->getStartColor()->setARGB('d1160d'); // BACKGORUND COLOR
+            }
+            if ($status == 'customer_canceled') {
+                $sheet->getStyle('A' . $i . '')->getFont()->setBold(true);
+                $sheet->getStyle('A' . $i . '')->getFill()
+                    ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
+                    ->getStartColor()->setARGB('d5f505'); // BACKGORUND COLOR
+            }
+
+            // SET BORDER
+            $styleArray = [
+                'borders' => [
+                    'allBorders' => [
+                        'borderStyle' => \PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN,
+                        'color' => ['argb' => '090a09']
+                    ],
+                ],
+            ];
+            $sheet->getStyle('A1:H' . ($count))->applyFromArray($styleArray);
+
+            // AUTO SIZE
+            $sheet->getColumnDimension('A')->setAutoSize(true);
+            $sheet->getColumnDimension('B')->setAutoSize(true);
+            $sheet->getColumnDimension('C')->setAutoSize(true);
+            $sheet->getColumnDimension('D')->setAutoSize(true);
+            $sheet->getColumnDimension('E')->setAutoSize(true);
+            $sheet->getColumnDimension('F')->setAutoSize(true);
+            $sheet->getColumnDimension('G')->setAutoSize(true);
+            $sheet->getColumnDimension('H')->setAutoSize(true);
+
+            // MAKE CENTER
+            $sheet->getStyle('A')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
+            $sheet->getStyle('B')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
+            $sheet->getStyle('C')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
+            $sheet->getStyle('D')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
+            $sheet->getStyle('E')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_RIGHT);
+            $sheet->getStyle('F')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_RIGHT);
+            $sheet->getStyle('G')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_RIGHT);
+            $sheet->getStyle('H')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
+            $i++;
         }
 
         header('Content-Type: application/vnd.ms-excel');

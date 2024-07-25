@@ -93,9 +93,11 @@ abstract class BaseController extends Controller
             'status' => $statusCode,
             'message' => $message,
             'error' => $error,
-            'result' => $data,
+            'result' => [
+            'data' => $data,
             'pagination' => $pagination
-        ];
+            ]
+            ];
         return $this->response->setJSON($response);
     }
 
